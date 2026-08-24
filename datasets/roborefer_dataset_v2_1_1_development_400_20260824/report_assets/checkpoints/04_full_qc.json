@@ -1,0 +1,10 @@
+{
+  "checkpoint": "V2_1_DEVELOPMENT_FULL_QC_PASS",
+  "created_at_utc": "2026-08-24T05:54:23.815772+00:00",
+  "dataset_index_sha256": "84e6357ae3b63d374935539f927a6b83ff7b911ae98e2fbcdb525efa19ea24ba",
+  "decision": "GO_DEVELOPMENT_TRAIN",
+  "protocol_id": "roborefer_dataset_v2_1_1_development_capture_400",
+  "report_sha256": "630d96be2f5bc90ff012954fbf73ae44b8a197d670d9a78f55252359ab2a6ff5",
+  "schema_version": 1,
+  "training_performed": false
+}

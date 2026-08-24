@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="660" viewBox="0 0 920 660">
+<rect width="100%" height="100%" fill="white"/>
+<text x="90.0" y="30.0" text-anchor="start" font-family="sans-serif" font-size="20" font-weight="bold" fill="#222">Clean localization versus false-FOUND trade-off</text>
+<text x="90.0" y="53.0" text-anchor="start" font-family="sans-serif" font-size="12" font-weight="normal" fill="#222">60 measured epoch checkpoints; lower F and higher Gc are preferable</text>
+<line x1="90" y1="575" x2="875" y2="575" stroke="#777"/>
+<line x1="90" y1="75" x2="90" y2="575" stroke="#777"/>
+<line x1="371.5" y1="75" x2="371.5" y2="575" stroke="#b44" stroke-dasharray="5,4"/>
+<line x1="90" y1="114.9" x2="875" y2="114.9" stroke="#777" stroke-dasharray="5,4"/>
+<circle cx="244.9" cy="418.8" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="425.7" cy="462.2" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="193.3" cy="505.6" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="193.3" cy="549.0" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="425.7" cy="331.9" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="193.3" cy="462.2" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="244.9" cy="288.5" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="503.2" cy="245.1" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="477.3" cy="245.1" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="399.9" cy="288.5" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="529.0" cy="245.1" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="477.3" cy="245.1" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="554.8" cy="201.7" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="477.3" cy="288.5" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="632.3" cy="158.3" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="425.7" cy="158.3" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="451.5" cy="158.3" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="451.5" cy="158.3" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="451.5" cy="158.3" r="6" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="503.2" cy="158.3" r="3" fill="#1f77b4" fill-opacity="0.75"/>
+<circle cx="244.9" cy="418.8" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="296.6" cy="505.6" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="374.0" cy="418.8" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="580.6" cy="375.3" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="374.0" cy="375.3" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="115.8" cy="114.9" r="6" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="244.9" cy="201.7" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="683.9" cy="201.7" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="735.6" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="322.4" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="503.2" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="296.6" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="374.0" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="348.2" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="425.7" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="477.3" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="374.0" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="477.3" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="451.5" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="451.5" cy="245.1" r="3" fill="#d95f02" fill-opacity="0.75"/>
+<circle cx="244.9" cy="331.9" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="529.0" cy="505.6" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="451.5" cy="635.8" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="219.1" cy="592.4" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="683.9" cy="505.6" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="167.5" cy="245.1" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="529.0" cy="331.9" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="296.6" cy="201.7" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="244.9" cy="288.5" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="322.4" cy="201.7" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="425.7" cy="245.1" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="270.8" cy="245.1" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="296.6" cy="201.7" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="348.2" cy="245.1" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="348.2" cy="245.1" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="348.2" cy="201.7" r="6" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="348.2" cy="245.1" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="348.2" cy="245.1" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="348.2" cy="245.1" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<circle cx="348.2" cy="245.1" r="3" fill="#2b8c4b" fill-opacity="0.75"/>
+<text x="482.5" y="635.0" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="normal" fill="#222">False-FOUND F</text>
+<text x="18.0" y="325.0" text-anchor="start" font-family="sans-serif" font-size="13" font-weight="normal" fill="#222">Gc</text>
+<text x="375.5" y="90.0" text-anchor="start" font-family="sans-serif" font-size="10" font-weight="normal" fill="#222">F max</text>
+<text x="871.0" y="110.9" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="normal" fill="#222">V1 Gc</text>
+</svg>

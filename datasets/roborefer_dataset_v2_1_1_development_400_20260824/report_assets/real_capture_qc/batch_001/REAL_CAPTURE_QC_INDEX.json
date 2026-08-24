@@ -1,0 +1,66 @@
+{
+  "batch_id": "batch_001",
+  "contains_planned_or_decorative_images": false,
+  "protocol_id": "roborefer_dataset_v2_1_1_development_capture_400",
+  "samples": [
+    {
+      "answerability_state": "FOUND",
+      "capture_id": "v211dev_family_000186__clean_capture",
+      "family_id": "v211dev_family_000186",
+      "image_sha256": {
+        "anchor_mask_union.png": "fb77cfefd5a0e138bf4b868653161346250ee9d1cd1ac83c8db89da56f722091",
+        "depth_metric_visualization.png": "2e666f8cb26e1f25c3b7d0cefe78d7b5a99f60161704f98c887882f22c3b9683",
+        "rgb.png": "096cc3239a462beae973094e025142070b4ea54f6cb2e59054943880033d1e5a",
+        "semantic_instance_labels.png": "dd6900ac5a6386667f707e5af3c0c5118f2f1466b16670c45a34b9009d82e6ba",
+        "target_anchor_overlay.png": "eafe7fabebb24b84de5f32dce86946227f85f972c27655d3a8429524a2714e8b",
+        "target_mask.png": "186615962879e42b0e0f31fd3f9e38559d8773955ede2dab5c1f6e8f230a2480"
+      },
+      "source_capture_meta_sha256": "dbe2b8c3bed082d91d8c1b470e795de2c418d948d7fbdcbc1f1a27b94fa0d4dc"
+    },
+    {
+      "answerability_state": "INSUFFICIENT_EVIDENCE",
+      "capture_id": "v211dev_family_000343__clean_capture",
+      "family_id": "v211dev_family_000343",
+      "image_sha256": {
+        "anchor_mask_union.png": "6ee1cafa2c8a13672be4b476126bba393cf75ee80566f134fe42af049a43cb40",
+        "depth_metric_visualization.png": "1a89730d148a37c09c5eb68983786f965bdffe6f1d4523d862fd85faf5e8bdb4",
+        "rgb.png": "d0d1e178d0aea3c47cf4bff8acd0350fc3bd04d2426e173143f8774312ce537e",
+        "semantic_instance_labels.png": "8d006d0bd24821c5cace77fff323581c4c88aa8ac586af20cd56404aed735183",
+        "target_anchor_overlay.png": "cc2bf9b1b5c92e53f0a8e8c0bfe17e7d856fac84d685c440c6915e8697961597",
+        "target_mask.png": "6dd5a373b3e2356412eed30cf6189b9dea08abf1521ee7c027ad25f69e41369c"
+      },
+      "source_capture_meta_sha256": "2b7d2346f776637937a3cfc4cced22612f517c96024090cbc22c7e1592ed4b53"
+    },
+    {
+      "answerability_state": "AMBIGUOUS",
+      "capture_id": "v211dev_family_000289__clean_capture",
+      "family_id": "v211dev_family_000289",
+      "image_sha256": {
+        "anchor_mask_union.png": "22037e8bb2f0696f4fcaec58f13b393e9dfe3f8367f15010d0956feebe5f940d",
+        "depth_metric_visualization.png": "69c95cf902d8e755d17c9f595fa9769d8267fbdfb1730a01493065fe9badf3f7",
+        "rgb.png": "c2594f99d73da9168dcd8aa7974a1ae362493a60db89015b4e66ed892e106d14",
+        "semantic_instance_labels.png": "d36eb02335d14211dfa365eb6452958c9ba9b8cb68db93d93c38d9ef6ec659f0",
+        "target_anchor_overlay.png": "797ec1f5506e97e3fda80025d4c5bb784cc5c5957a01cc11882ddb5fb4b6a19f",
+        "target_mask.png": "82f301a4d9875991f074a5127fc077a0a08c66362a1e7313582e452849073624"
+      },
+      "source_capture_meta_sha256": "82da3c575a0df4b8c7f6c974049871f5dfc680b7040d2f90fb0884902830b9a4"
+    },
+    {
+      "answerability_state": "ABSENT",
+      "capture_id": "v211dev_family_000080__clean_capture",
+      "family_id": "v211dev_family_000080",
+      "image_sha256": {
+        "anchor_mask_union.png": "8db6dd3760581bf8123b0f53ee2d1663edb1a338c381a59d316d482a96546b43",
+        "depth_metric_visualization.png": "0fbe40e5ae4aa52492d0d7c971354d25b5513026021dc347a610a64a2afec371",
+        "rgb.png": "20d307e4bd80e3f8c74865cbc4dd3904c0ac7a12675658a39ed739b96445fb61",
+        "semantic_instance_labels.png": "db3cf5b994522af2202541075ada6f23a5f506293ffc063fe158b5029d03756c",
+        "target_anchor_overlay.png": "338e865981513756d35ca20ce7730270cd57ae9e5a5dd55dc3dda19572a478cf",
+        "target_mask.png": "b013688a9830906583415920dd15903a5cc8e12dd86f2677d1e615c81954d8eb"
+      },
+      "source_capture_meta_sha256": "fc96f8a593ce0ad7d37d68913a385ad300ac25bfe3c623a612276740bb297b03"
+    }
+  ],
+  "schema_version": 1,
+  "selected_family_count": 4,
+  "selection_policy": "one clean family per answerability state by locked SHA-256 rank"
+}

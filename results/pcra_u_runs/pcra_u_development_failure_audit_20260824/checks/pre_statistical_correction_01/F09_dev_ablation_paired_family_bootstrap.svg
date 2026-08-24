@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="30" font-family="sans-serif" font-size="20">Dev paired family-bootstrap deltas (left minus right)</text>
+<line x1="680.0" y1="52" x2="680.0" y2="635" stroke="#555" stroke-dasharray="4 4"/>
+<text x="30" y="80" font-family="sans-serif" font-size="13">P1_minus_U1 · answerability_macro_f1</text>
+<line x1="869.6" y1="75" x2="974.0" y2="75" stroke="#205493" stroke-width="3"/>
+<circle cx="924.5" cy="75" r="5" fill="#b52b27"/>
+<text x="938" y="80" font-family="monospace" font-size="12">+0.342 [+0.265, +0.412]</text>
+<text x="30" y="138" font-family="sans-serif" font-size="13">P1_minus_U1 · found_point_in_target</text>
+<line x1="822.0" y1="133" x2="920.8" y2="133" stroke="#205493" stroke-width="3"/>
+<circle cx="871.3" cy="133" r="5" fill="#b52b27"/>
+<text x="938" y="138" font-family="monospace" font-size="12">+0.268 [+0.199, +0.337]</text>
+<text x="30" y="196" font-family="sans-serif" font-size="13">P1_minus_A_NO_DEPTH · answerability_macro_f1</text>
+<line x1="832.9" y1="191" x2="917.6" y2="191" stroke="#205493" stroke-width="3"/>
+<circle cx="872.9" cy="191" r="5" fill="#b52b27"/>
+<text x="938" y="196" font-family="monospace" font-size="12">+0.270 [+0.214, +0.333]</text>
+<text x="30" y="254" font-family="sans-serif" font-size="13">P1_minus_A_NO_DEPTH · found_point_in_target</text>
+<line x1="675.4" y1="249" x2="753.6" y2="249" stroke="#205493" stroke-width="3"/>
+<circle cx="714.0" cy="249" r="5" fill="#b52b27"/>
+<text x="938" y="254" font-family="monospace" font-size="12">+0.048 [-0.006, +0.103]</text>
+<text x="30" y="312" font-family="sans-serif" font-size="13">B1_minus_B0 · answerability_macro_f1</text>
+<line x1="680.0" y1="307" x2="680.0" y2="307" stroke="#205493" stroke-width="3"/>
+<circle cx="680.0" cy="307" r="5" fill="#b52b27"/>
+<text x="938" y="312" font-family="monospace" font-size="12">+0.000 [+0.000, +0.000]</text>
+<text x="30" y="370" font-family="sans-serif" font-size="13">B1_minus_B0 · found_point_in_target</text>
+<line x1="675.4" y1="365" x2="717.6" y2="365" stroke="#205493" stroke-width="3"/>
+<circle cx="692.8" cy="365" r="5" fill="#b52b27"/>
+<text x="938" y="370" font-family="monospace" font-size="12">+0.018 [-0.006, +0.053]</text>
+<text x="30" y="428" font-family="sans-serif" font-size="13">P1_minus_B1 · answerability_macro_f1</text>
+<line x1="1054.5" y1="423" x2="1146.4" y2="423" stroke="#205493" stroke-width="3"/>
+<circle cx="1104.4" cy="423" r="5" fill="#b52b27"/>
+<text x="938" y="428" font-family="monospace" font-size="12">+0.594 [+0.524, +0.653]</text>
+<text x="30" y="486" font-family="sans-serif" font-size="13">P1_minus_B1 · found_point_in_target</text>
+<line x1="572.7" y1="481" x2="650.9" y2="481" stroke="#205493" stroke-width="3"/>
+<circle cx="612.0" cy="481" r="5" fill="#b52b27"/>
+<text x="938" y="486" font-family="monospace" font-size="12">-0.095 [-0.150, -0.041]</text>
+<text x="30" y="544" font-family="sans-serif" font-size="13">P1_minus_B2_clean · answerability_macro_f1</text>
+<line x1="945.2" y1="539" x2="1112.3" y2="539" stroke="#205493" stroke-width="3"/>
+<circle cx="1032.5" cy="539" r="5" fill="#b52b27"/>
+<text x="938" y="544" font-family="monospace" font-size="12">+0.494 [+0.371, +0.605]</text>
+<text x="30" y="602" font-family="sans-serif" font-size="13">P1_minus_B2_clean · found_point_in_target</text>
+<line x1="238.8" y1="597" x2="489.5" y2="597" stroke="#205493" stroke-width="3"/>
+<circle cx="367.5" cy="597" r="5" fill="#b52b27"/>
+<text x="938" y="602" font-family="monospace" font-size="12">-0.438 [-0.618, -0.267]</text>
+</svg>

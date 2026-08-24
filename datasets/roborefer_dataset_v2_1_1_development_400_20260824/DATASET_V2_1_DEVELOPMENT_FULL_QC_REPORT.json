@@ -1,0 +1,222 @@
+{
+  "asset_partition_qc": {
+    "active_asset_ids": [
+      "cube_blue_01",
+      "cube_green_01",
+      "cube_orange_01",
+      "cube_pink_01",
+      "cube_purple_01",
+      "cube_yellow_01",
+      "mango_01",
+      "ycb_apple_01",
+      "ycb_apple_02",
+      "ycb_apple_03",
+      "ycb_lemon_01",
+      "ycb_mug_01",
+      "ycb_mustard_bottle_01",
+      "ycb_orange_01",
+      "ycb_orange_02",
+      "ycb_orange_03",
+      "ycb_tomato_soup_can_01"
+    ],
+    "excluded_active": [],
+    "heldout_active": [],
+    "passed": true
+  },
+  "calibration_or_test_created": false,
+  "decision": "GO_DEVELOPMENT_TRAIN",
+  "deterministic_replay": {
+    "files_compared": 18285,
+    "mismatches": [],
+    "passed": true
+  },
+  "family_count": 400,
+  "figures_policy": "REAL_CAPTURE_QC_IMAGES_ONLY_NO_PLANNED_INFOGRAPHIC",
+  "generated_at_utc": "2026-08-24T05:54:23.804343+00:00",
+  "passed": true,
+  "protocol_id": "roborefer_dataset_v2_1_1_development_capture_400",
+  "raw_and_batch_qc": {
+    "batch_reports": [
+      {
+        "batch_id": "canary_000",
+        "max_timestamp_spread_sec": 0.03300000000000125,
+        "relation_checks": 18,
+        "relation_not_evaluable_allowed": 0,
+        "valid_capture_count": 40
+      },
+      {
+        "batch_id": "batch_001",
+        "max_timestamp_spread_sec": 0.03300000000001546,
+        "relation_checks": 77,
+        "relation_not_evaluable_allowed": 4,
+        "valid_capture_count": 190
+      },
+      {
+        "batch_id": "batch_002",
+        "max_timestamp_spread_sec": 0.03300000000001546,
+        "relation_checks": 96,
+        "relation_not_evaluable_allowed": 5,
+        "valid_capture_count": 190
+      },
+      {
+        "batch_id": "batch_003",
+        "max_timestamp_spread_sec": 0.03300000000001546,
+        "relation_checks": 80,
+        "relation_not_evaluable_allowed": 3,
+        "valid_capture_count": 190
+      },
+      {
+        "batch_id": "batch_004",
+        "max_timestamp_spread_sec": 0.03300000000001546,
+        "relation_checks": 85,
+        "relation_not_evaluable_allowed": 6,
+        "valid_capture_count": 190
+      }
+    ],
+    "max_timestamp_spread_sec": 0.03300000000001546,
+    "ordered_shutdown_complete": true,
+    "passed": true,
+    "raw_capture_count": 800,
+    "relation_checks": 356,
+    "relation_failures": 0
+  },
+  "raw_capture_count": 800,
+  "record_mask_ontology_oracle_qc": {
+    "asset_by_split": {
+      "dev": {
+        "cube_blue_01": 7,
+        "cube_green_01": 10,
+        "cube_orange_01": 6,
+        "cube_pink_01": 34,
+        "cube_purple_01": 14,
+        "cube_yellow_01": 15,
+        "mango_01": 4,
+        "ycb_apple_01": 34,
+        "ycb_apple_02": 2,
+        "ycb_apple_03": 3,
+        "ycb_lemon_01": 26,
+        "ycb_mug_01": 6,
+        "ycb_mustard_bottle_01": 19,
+        "ycb_orange_01": 16,
+        "ycb_orange_02": 5,
+        "ycb_orange_03": 4,
+        "ycb_tomato_soup_can_01": 44
+      },
+      "train": {
+        "cube_blue_01": 35,
+        "cube_green_01": 51,
+        "cube_orange_01": 29,
+        "cube_pink_01": 100,
+        "cube_purple_01": 58,
+        "cube_yellow_01": 52,
+        "mango_01": 35,
+        "ycb_apple_01": 112,
+        "ycb_apple_02": 21,
+        "ycb_apple_03": 11,
+        "ycb_lemon_01": 95,
+        "ycb_mug_01": 31,
+        "ycb_mustard_bottle_01": 102,
+        "ycb_orange_01": 72,
+        "ycb_orange_02": 16,
+        "ycb_orange_03": 7,
+        "ycb_tomato_soup_can_01": 174
+      }
+    },
+    "family_category_by_split": {
+      "dev": {
+        "direct_grounding": 12,
+        "front_behind_camera": 12,
+        "multi_anchor_depth_order": 12,
+        "nearer_farther": 14,
+        "occlusion_depth_evidence": 14,
+        "relation_2d": 16
+      },
+      "train": {
+        "direct_grounding": 48,
+        "front_behind_camera": 48,
+        "multi_anchor_depth_order": 48,
+        "nearer_farther": 56,
+        "occlusion_depth_evidence": 56,
+        "relation_2d": 64
+      }
+    },
+    "family_count": 400,
+    "mask_statistics": {
+      "ABSENT_records": 264,
+      "ABSENT_target_pixels": 0,
+      "AMBIGUOUS_records": 210,
+      "AMBIGUOUS_target_pixels": 2531475,
+      "FOUND_records": 841,
+      "FOUND_target_pixels": 6454041,
+      "INSUFFICIENT_EVIDENCE_records": 685,
+      "INSUFFICIENT_EVIDENCE_target_pixels": 4540266
+    },
+    "oracle_leakage_findings": [],
+    "passed": true,
+    "primary_answerability_by_split": {
+      "dev": {
+        "ABSENT": 14,
+        "AMBIGUOUS": 14,
+        "FOUND": 32,
+        "INSUFFICIENT_EVIDENCE": 20
+      },
+      "train": {
+        "ABSENT": 56,
+        "AMBIGUOUS": 56,
+        "FOUND": 128,
+        "INSUFFICIENT_EVIDENCE": 80
+      }
+    },
+    "record_count": 2000,
+    "relation_by_split": {
+      "dev": {
+        "behind": 5,
+        "between_in_depth": 7,
+        "direct": 12,
+        "farther_than": 8,
+        "front_of": 21,
+        "left_of": 7,
+        "nearer_than": 6,
+        "nearer_than_both": 5,
+        "right_of": 9
+      },
+      "train": {
+        "behind": 23,
+        "between_in_depth": 17,
+        "direct": 48,
+        "farther_than": 26,
+        "front_of": 81,
+        "left_of": 28,
+        "nearer_than": 30,
+        "nearer_than_both": 31,
+        "right_of": 36
+      }
+    },
+    "split_family_counts": {
+      "dev": 80,
+      "train": 320
+    }
+  },
+  "sample_count": 2000,
+  "schema_version": 1,
+  "scientific_status": "OFFICIAL_DEVELOPMENT_DATASET_QC_PASS_TESTS_STILL_SEALED",
+  "tables": {
+    "table_01": "report_assets/tables/table_01_dataset_independence.csv",
+    "table_01b": "report_assets/tables/table_01b_relation_family_balance.csv",
+    "table_01c": "report_assets/tables/table_01c_family_category_balance.csv",
+    "tables_02_to_06": "report_assets/tables/TABLES_02_TO_06_STATUS.json"
+  },
+  "tables_02_to_06": "NOT_RUN",
+  "train_dev_leakage_qc": {
+    "cross_split_overlap_counts": {
+      "capture": 0,
+      "instruction": 0,
+      "layout": 0,
+      "seed": 0,
+      "template": 0
+    },
+    "passed": true
+  },
+  "training_authorized_as_next_gate": true,
+  "training_performed": false
+}

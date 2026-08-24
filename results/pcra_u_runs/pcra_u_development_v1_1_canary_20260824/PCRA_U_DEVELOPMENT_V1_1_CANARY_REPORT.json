@@ -1,0 +1,304 @@
+{
+  "calibration_fit": false,
+  "checkpoint_audit": {
+    "auto_deleted": [],
+    "checkpoint_root": "/home/dhcn/ur_ws/src/myproject/results/pcra_u_runs/pcra_u_development_v1_1_canary_20260824/checkpoints/canary",
+    "invalid_checkpoints": [],
+    "passed": true,
+    "pointers": {
+      "last.json": {
+        "target": "step_000000020",
+        "valid": true
+      }
+    },
+    "schema_version": 1,
+    "stale_temporary_directories": [],
+    "valid_checkpoints": [
+      "step_000000010",
+      "step_000000020"
+    ]
+  },
+  "decision": "GO_V1_1_THREE_SEED_CAMPAIGN",
+  "gates": {
+    "all_active_gradient_groups_nonzero": true,
+    "all_loss_and_gradient_values_finite": true,
+    "calibration_and_tests_sealed": true,
+    "checkpoint_audit_pass": true,
+    "exact_20_steps": true,
+    "exact_two_epochs": true,
+    "fresh_initialization_no_resume": true,
+    "no_best_pointer_before_eligibility_epoch": true,
+    "only_train_and_dev_entries_loaded": true,
+    "parent_integrity_unchanged": true,
+    "preflight_lock_verified": true
+  },
+  "generated_at_utc": "2026-08-24T09:56:13.046580+00:00",
+  "gradient_split": "train_canary_only",
+  "observed": {
+    "elapsed_seconds": 1.244289321999986,
+    "epochs_completed": 2,
+    "final_dev_metrics": {
+      "answerability": {
+        "accuracy": 0.1,
+        "confusion_matrix": [
+          [
+            0,
+            1,
+            2,
+            4
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            3,
+            0
+          ]
+        ],
+        "macro_f1": 0.07142857142857144,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.28571428571428575,
+            "precision": 0.2,
+            "recall": 0.5
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      },
+      "clean_found": {
+        "clean_found_total": 1,
+        "joint_found_and_point_in_target": 0.0,
+        "joint_success_count": 0,
+        "mean_mass_in_target": 0.017514133272904266,
+        "raw_correct_interior": 0,
+        "raw_correct_target": 0,
+        "raw_point_in_interior": 0.0,
+        "raw_point_in_target": 0.0
+      },
+      "false_found_on_ambiguous_or_absent": {
+        "count": 0,
+        "denominator": 7,
+        "rate": 0.0
+      },
+      "family_aggregated": {
+        "answerability_accuracy_mean": 0.1,
+        "clean_found_point_in_target_mean": 0.0,
+        "families_with_clean_found": 1,
+        "families_with_found": 4,
+        "found_point_in_target_mean": 0.0
+      },
+      "family_count": 4,
+      "grounding_by_relation": {
+        "direct": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 4
+        },
+        "front_of": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 1
+        },
+        "left_of": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 1
+        },
+        "right_of": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 1
+        }
+      },
+      "grounding_found": {
+        "correct_interior": 0,
+        "correct_target": 0,
+        "found_total": 7,
+        "mean_mass_in_target": 0.02576874324481165,
+        "point_in_interior": 0.0,
+        "point_in_target": 0.0
+      },
+      "loss": {
+        "aggregation": {
+          "answerability_denominator": 16.615579843521118,
+          "answerability_numerator": 22.982819080352783,
+          "heatmap_bce_numerator": 9.521578311920166,
+          "heatmap_denominator": 10.0,
+          "heatmap_dice_numerator": 9.534746289253235,
+          "heatmap_numerator": 19.056323289871216,
+          "heatmap_unweighted_denominator": 7.0,
+          "heatmap_unweighted_numerator": 13.535539865493774,
+          "source_denominator": 80.0,
+          "source_numerator": 89.27446365356445
+        },
+        "answerability": 1.3832089699424142,
+        "heatmap": 1.9056323289871215,
+        "heatmap_bce": 0.9521578311920166,
+        "heatmap_dice": 0.9534746289253235,
+        "heatmap_unweighted_diagnostic": 1.9336485522133964,
+        "heatmap_weighted_objective": 1.9056323289871215,
+        "source": 1.1159307956695557,
+        "total": 3.1552022117931067
+      },
+      "sample_count": 20,
+      "selection_components": {
+        "A_answerability_macro_f1": 0.07142857142857144,
+        "C_dev_scientific_score_v1_1": 0.16428571428571428,
+        "F_false_found_rate": 0.0,
+        "G_a_all_found_raw_point_in_target": 0.0,
+        "G_c_clean_found_raw_point_in_target": 0.0,
+        "S_source_micro_f1": 0.43243243243243246,
+        "clean_joint_success": 0.0,
+        "formula": "0.45*Gc + 0.20*Ga + 0.20*A + 0.15*(1-F)"
+      },
+      "source_counts": {
+        "fn": 4,
+        "fp": 38,
+        "tp": 16
+      },
+      "source_micro_f1": 0.43243243243243246
+    },
+    "optimizer_steps": 20,
+    "peak_vram_bytes": 260434944,
+    "steps_per_second": 16.07343215631985,
+    "trainable_parameters": 1041801
+  },
+  "passed": true,
+  "protected_after": {
+    "feature_cache_index": {
+      "features": 61,
+      "path": "results/pcra_u_feature_cache/pcra_u_development_v1/indexes/index_canary.json",
+      "samples": 100,
+      "scope": "canary",
+      "sha256": "21cc93d4f2fa57e82baec27ec50c419c32ff09340d2b2a73d0da2fb7f1b782c8"
+    },
+    "parent_file_sha256": {
+      "protocol/pcra_u_development_common.py": "95b17f41b1526d1b760177fae4240ecd8bf96f37a4a936405d9cda6667571bfc",
+      "protocol/pcra_u_development_execution_lock.json": "43aad05392666e6fc7a2d7d5d325070b94a3e618e5ac7e740bcc54d61173921b",
+      "protocol/pcra_u_development_feature_manifest.json": "113b3e88196596569ec1d23156564cecae15e5763ddc74525e3f0b13ab1520a4",
+      "protocol/pcra_u_development_train.py": "de28a0ab9d34290583237ab50878e77cd9a52971198cfb6fa1d87eccb9b44896",
+      "protocol/pcra_u_development_train_config.json": "bf689c54c9be780dd9dfcfeea8acfd355d3f778bef881cd9e81f06162207c14a",
+      "protocol/pcra_u_development_train_manifest.json": "1de697018ad22c51498c4e17d1c6b82220b9829e1e9dbc0dab6601c3570f6745",
+      "protocol/training_checkpoint_manager.py": "be7cc1d4c0bdbc99bfb18caf9bf93cab68942c9b37f67a44930f4a47cbee0ce3",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/PCRA_U_DEVELOPMENT_TRAIN_REPORT.json": "5c0873766ac5e637190e589a7eeaf77c2bef2da429d1dd50551836ca3738a805",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/manifest.json": "b59f742727d35cdbb2c9575571d89d2b5853f903dcd5b1358014d7d977ec64a5",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/metadata.json": "03de47beb29320aea32a69331c1d5805b23929cf2bc77274195b2ccd5d94accc",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/model.safetensors": "14dba40d2de437f082aece9b342931a48c58202ae4242d577d4a4ffd7eecaab3",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/training_state.pt": "2addea0577fac619abef47dbddecea447d42075b3b472ac658b2682a2fb163e3"
+    },
+    "protected": {
+      "dataset_index_sha256": "84e6357ae3b63d374935539f927a6b83ff7b911ae98e2fbcdb525efa19ea24ba",
+      "dataset_tree_sha256": "0f3d27bd8f059aefd811d6a1658e059e14611f3972532dd4d3f4239f70019d9c",
+      "family_manifest_sha256": "9dcc239e1be232c6869f3b066fa32a2be9cdf5386eda31e2b896e4ac7b2c26c6",
+      "full_qc_report_sha256": "630d96be2f5bc90ff012954fbf73ae44b8a197d670d9a78f55252359ab2a6ff5",
+      "model_inventory_sha256": "5508fb49888c1f62b875d928266f7fff3e1224c795f6fc8b971631143a45a7fa",
+      "wp3_locked_baseline_artifacts": {
+        "RoboRefer/llava/mm_utils.py": "05fbec07c579e4cf4369f90d5b4fb7b590ce4caaf93c8047dabbe66e49f6e122",
+        "RoboRefer/llava/model/builder.py": "b808cf111107e637f6ff55324269851ac2382a13b7022bd3a5a881f7cff533e5",
+        "RoboRefer/llava/model/llava_arch.py": "f0f822711f0aebc1f06abe87f23ad7122a05114ed4ce445432589500262b74ec",
+        "RoboRefer/llava/model/multimodal_encoder/vision_encoder.py": "b08f8271d5ea6a416c7099d33f432304db8b62c9198a3e61caa9b21451d3140e",
+        "RoboRefer/llava/model/multimodal_projector/base_projector.py": "bf1cfa16c738d2769f7e548d84fab375066f59902a7b31de352250f602b6231f",
+        "RoboRefer/models/RoboRefer-2B-SFT/config.json": "e6a316c869fc8701bd6c1d7489bd94accd7f2c12bccaee0acf4c0b279b0d8fbd",
+        "RoboRefer/models/RoboRefer-2B-SFT/depth_projector/config.json": "4785b843b715f5783c80ce89d3a7590fe7932c3c2e39256f548e169d64aa5624",
+        "RoboRefer/models/RoboRefer-2B-SFT/depth_tower/config.json": "72b587539cf906b7a7e83a45a98eac8a070221b8c31b4afbe113809fcb4edc3e",
+        "RoboRefer/models/RoboRefer-2B-SFT/depth_tower/preprocessor_config.json": "4c85fdac96f2ce697f4d633dbc8469a7e5b80dc0d38af284cf4da9ff2330abc3",
+        "RoboRefer/models/RoboRefer-2B-SFT/mm_projector/config.json": "cafda23ca60df5ad12a937da717c33f0a57582db018d9e9ff5d01240520e9201",
+        "RoboRefer/models/RoboRefer-2B-SFT/vision_tower/config.json": "0f42c3fdf982483503a9727e6661ab279eaa5d8ca9e1c533084c451d088b2771",
+        "RoboRefer/models/RoboRefer-2B-SFT/vision_tower/preprocessor_config.json": "4c85fdac96f2ce697f4d633dbc8469a7e5b80dc0d38af284cf4da9ff2330abc3",
+        "protocol/WP3_GRAPH_FEATURE_CONTRACT.md": "26c89e0b00ec2dddcdc7648c16becb8eb791b69e874c6ea6d2b0a0aa63437aec",
+        "protocol/feature_cache_v1.schema.json": "6e9d8a2bf67fd543409d523666990b65264b9066d05b51bb4cdafd2d56724b01",
+        "protocol/query_graph_v1.schema.json": "2206e691db3bf44ff27efcf652ddc13b7da2139aa22fc35fc74870b46fb1f57b",
+        "protocol/wp3_contract_lock.json": "3d054b7e0d7c6cb4e5891a1c4a55578ee5ee402ac94b3b7a04e6667445a84253",
+        "protocol/wp3_feature_hook_smoke.py": "61838a542fd3f82ce38d41233a9ff9a933375ccb9c97dae6af3824b0a90c6fcb",
+        "protocol/wp3_smoke_manifest.json": "91ab772cad2e17d76c0f94bfbbee4fc3fafc2b0a9a7ebddca51045f6085c3a6c"
+      }
+    }
+  },
+  "protected_before": {
+    "feature_cache_index": {
+      "features": 61,
+      "path": "results/pcra_u_feature_cache/pcra_u_development_v1/indexes/index_canary.json",
+      "samples": 100,
+      "scope": "canary",
+      "sha256": "21cc93d4f2fa57e82baec27ec50c419c32ff09340d2b2a73d0da2fb7f1b782c8"
+    },
+    "parent_file_sha256": {
+      "protocol/pcra_u_development_common.py": "95b17f41b1526d1b760177fae4240ecd8bf96f37a4a936405d9cda6667571bfc",
+      "protocol/pcra_u_development_execution_lock.json": "43aad05392666e6fc7a2d7d5d325070b94a3e618e5ac7e740bcc54d61173921b",
+      "protocol/pcra_u_development_feature_manifest.json": "113b3e88196596569ec1d23156564cecae15e5763ddc74525e3f0b13ab1520a4",
+      "protocol/pcra_u_development_train.py": "de28a0ab9d34290583237ab50878e77cd9a52971198cfb6fa1d87eccb9b44896",
+      "protocol/pcra_u_development_train_config.json": "bf689c54c9be780dd9dfcfeea8acfd355d3f778bef881cd9e81f06162207c14a",
+      "protocol/pcra_u_development_train_manifest.json": "1de697018ad22c51498c4e17d1c6b82220b9829e1e9dbc0dab6601c3570f6745",
+      "protocol/training_checkpoint_manager.py": "be7cc1d4c0bdbc99bfb18caf9bf93cab68942c9b37f67a44930f4a47cbee0ce3",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/PCRA_U_DEVELOPMENT_TRAIN_REPORT.json": "5c0873766ac5e637190e589a7eeaf77c2bef2da429d1dd50551836ca3738a805",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/manifest.json": "b59f742727d35cdbb2c9575571d89d2b5853f903dcd5b1358014d7d977ec64a5",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/metadata.json": "03de47beb29320aea32a69331c1d5805b23929cf2bc77274195b2ccd5d94accc",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/model.safetensors": "14dba40d2de437f082aece9b342931a48c58202ae4242d577d4a4ffd7eecaab3",
+      "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/training_state.pt": "2addea0577fac619abef47dbddecea447d42075b3b472ac658b2682a2fb163e3"
+    },
+    "protected": {
+      "dataset_index_sha256": "84e6357ae3b63d374935539f927a6b83ff7b911ae98e2fbcdb525efa19ea24ba",
+      "dataset_tree_sha256": "0f3d27bd8f059aefd811d6a1658e059e14611f3972532dd4d3f4239f70019d9c",
+      "family_manifest_sha256": "9dcc239e1be232c6869f3b066fa32a2be9cdf5386eda31e2b896e4ac7b2c26c6",
+      "full_qc_report_sha256": "630d96be2f5bc90ff012954fbf73ae44b8a197d670d9a78f55252359ab2a6ff5",
+      "model_inventory_sha256": "5508fb49888c1f62b875d928266f7fff3e1224c795f6fc8b971631143a45a7fa",
+      "wp3_locked_baseline_artifacts": {
+        "RoboRefer/llava/mm_utils.py": "05fbec07c579e4cf4369f90d5b4fb7b590ce4caaf93c8047dabbe66e49f6e122",
+        "RoboRefer/llava/model/builder.py": "b808cf111107e637f6ff55324269851ac2382a13b7022bd3a5a881f7cff533e5",
+        "RoboRefer/llava/model/llava_arch.py": "f0f822711f0aebc1f06abe87f23ad7122a05114ed4ce445432589500262b74ec",
+        "RoboRefer/llava/model/multimodal_encoder/vision_encoder.py": "b08f8271d5ea6a416c7099d33f432304db8b62c9198a3e61caa9b21451d3140e",
+        "RoboRefer/llava/model/multimodal_projector/base_projector.py": "bf1cfa16c738d2769f7e548d84fab375066f59902a7b31de352250f602b6231f",
+        "RoboRefer/models/RoboRefer-2B-SFT/config.json": "e6a316c869fc8701bd6c1d7489bd94accd7f2c12bccaee0acf4c0b279b0d8fbd",
+        "RoboRefer/models/RoboRefer-2B-SFT/depth_projector/config.json": "4785b843b715f5783c80ce89d3a7590fe7932c3c2e39256f548e169d64aa5624",
+        "RoboRefer/models/RoboRefer-2B-SFT/depth_tower/config.json": "72b587539cf906b7a7e83a45a98eac8a070221b8c31b4afbe113809fcb4edc3e",
+        "RoboRefer/models/RoboRefer-2B-SFT/depth_tower/preprocessor_config.json": "4c85fdac96f2ce697f4d633dbc8469a7e5b80dc0d38af284cf4da9ff2330abc3",
+        "RoboRefer/models/RoboRefer-2B-SFT/mm_projector/config.json": "cafda23ca60df5ad12a937da717c33f0a57582db018d9e9ff5d01240520e9201",
+        "RoboRefer/models/RoboRefer-2B-SFT/vision_tower/config.json": "0f42c3fdf982483503a9727e6661ab279eaa5d8ca9e1c533084c451d088b2771",
+        "RoboRefer/models/RoboRefer-2B-SFT/vision_tower/preprocessor_config.json": "4c85fdac96f2ce697f4d633dbc8469a7e5b80dc0d38af284cf4da9ff2330abc3",
+        "protocol/WP3_GRAPH_FEATURE_CONTRACT.md": "26c89e0b00ec2dddcdc7648c16becb8eb791b69e874c6ea6d2b0a0aa63437aec",
+        "protocol/feature_cache_v1.schema.json": "6e9d8a2bf67fd543409d523666990b65264b9066d05b51bb4cdafd2d56724b01",
+        "protocol/query_graph_v1.schema.json": "2206e691db3bf44ff27efcf652ddc13b7da2139aa22fc35fc74870b46fb1f57b",
+        "protocol/wp3_contract_lock.json": "3d054b7e0d7c6cb4e5891a1c4a55578ee5ee402ac94b3b7a04e6667445a84253",
+        "protocol/wp3_feature_hook_smoke.py": "61838a542fd3f82ce38d41233a9ff9a933375ccb9c97dae6af3824b0a90c6fcb",
+        "protocol/wp3_smoke_manifest.json": "91ab772cad2e17d76c0f94bfbbee4fc3fafc2b0a9a7ebddca51045f6085c3a6c"
+      }
+    }
+  },
+  "protocol_id": "pcra_u_development_v1_1",
+  "run_root": "results/pcra_u_runs/pcra_u_development_v1_1_canary_20260824",
+  "schema_version": 1,
+  "scientific_status": "ENGINEERING_CANARY_NOT_SCIENTIFIC_RESULT",
+  "seed": 24082026,
+  "selection_split": "dev_canary_diagnostic_only",
+  "test_opened": false,
+  "training_performed": true
+}

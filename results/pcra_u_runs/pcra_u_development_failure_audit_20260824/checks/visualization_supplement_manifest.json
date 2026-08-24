@@ -1,0 +1,108 @@
+{
+  "caveats": [
+    "B2 is clean-only and must not be treated as a full-400 comparison.",
+    "A_NO_DEPTH low false-FOUND accompanies 4.5% predicted-FOUND coverage.",
+    "Failure-case counts are not subgroup error rates because exposure denominators are absent.",
+    "U1 and A_NO_DEPTH are post-hoc, not retrained causal ablations."
+  ],
+  "claims": {
+    "calibration_fit": false,
+    "failure_count_aggregation_for_display": true,
+    "model_inference": false,
+    "model_metrics_recomputed": false,
+    "render_only": true,
+    "tables_02_to_06": "NOT_RUN",
+    "test_opened": false,
+    "training": false
+  },
+  "created_at_utc": "2026-08-24T07:58:49.332063+00:00",
+  "environment": {
+    "matplotlib": "3.11.0",
+    "numpy": "2.2.6",
+    "python": "3.12.3"
+  },
+  "outputs": [
+    {
+      "bytes": 1466,
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/VISUALIZATION_SUPPLEMENT.md",
+      "sha256": "022fd96172a5e8ef5d02b2a5c279898603413b3df19f619747638265254ab656"
+    },
+    {
+      "bytes": 362076,
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/figures/F10_dev_method_comparison_from_csv.png",
+      "sha256": "a7f2af41bc236cc9058e7f833788398d4187f1e19124592733b3cacefa47c217"
+    },
+    {
+      "bytes": 142814,
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/figures/F10_dev_method_comparison_from_csv.svg",
+      "sha256": "41c33eaa83fc2ac47e5319ab75e2bdaa050612520e0b54c697afb55a25a5aad1"
+    },
+    {
+      "bytes": 335170,
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/figures/F11_dev_failure_diagnostics_from_csv.png",
+      "sha256": "cc7e8312a6630cb891a6d09a148d424ab3c098e9606b394dd89111d6ca618ec8"
+    },
+    {
+      "bytes": 156026,
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/figures/F11_dev_failure_diagnostics_from_csv.svg",
+      "sha256": "555a6d66c237fd18a9238a6b0acd897a1eab04d5e2146dc69b27f37dfaa35a3d"
+    },
+    {
+      "bytes": 174737,
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/figures/F12_dev_paired_family_bootstrap_from_csv.png",
+      "sha256": "15960b630fd1b7353d8e51fdfa4745b541653f3a0be0f68bb10e42ef0ba3197d"
+    },
+    {
+      "bytes": 115242,
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/figures/F12_dev_paired_family_bootstrap_from_csv.svg",
+      "sha256": "d038d8d5618064d4b62e097cdf780d4a77586deb49008bce7f6cefc23cfe091f"
+    },
+    {
+      "bytes": 3120,
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/tables/table_dev_failure_visualization_counts.csv",
+      "sha256": "869b9e8076c6c79f2062bfd997e36ab48dc2bf2dc1f0f80f385cdc9193b76d12"
+    }
+  ],
+  "protected_after": {
+    "architecture_freeze_lock": "aa897d0dedde31b4a3f1e7cf45a1336c8b163097f6c93de9f6a8b90a732aea4f",
+    "audit_contract": "45a62024216e86c1925883dc98e667e56b9106e71c258bf457c2361a84073b5b",
+    "audit_report_json": "6e44ebde6ae516d0a64c8b0a532e46faff7fdf65448b678fdc743b054ffef5ac",
+    "eval_manifest": "0ae584556006c56d7551db85421cd43fad213b188a87db3685a6c8f6d7f1cf12",
+    "frozen_audit_code": "502290c311b2c58e84cbcbe986d8d7ae3b77afaf9259f9fd706ffd198373a95f",
+    "selected_checkpoint_manifest": "b59f742727d35cdbb2c9575571d89d2b5853f903dcd5b1358014d7d977ec64a5",
+    "selected_checkpoint_metadata": "03de47beb29320aea32a69331c1d5805b23929cf2bc77274195b2ccd5d94accc",
+    "selected_checkpoint_model": "14dba40d2de437f082aece9b342931a48c58202ae4242d577d4a4ffd7eecaab3"
+  },
+  "protected_before": {
+    "architecture_freeze_lock": "aa897d0dedde31b4a3f1e7cf45a1336c8b163097f6c93de9f6a8b90a732aea4f",
+    "audit_contract": "45a62024216e86c1925883dc98e667e56b9106e71c258bf457c2361a84073b5b",
+    "audit_report_json": "6e44ebde6ae516d0a64c8b0a532e46faff7fdf65448b678fdc743b054ffef5ac",
+    "eval_manifest": "0ae584556006c56d7551db85421cd43fad213b188a87db3685a6c8f6d7f1cf12",
+    "frozen_audit_code": "502290c311b2c58e84cbcbe986d8d7ae3b77afaf9259f9fd706ffd198373a95f",
+    "selected_checkpoint_manifest": "b59f742727d35cdbb2c9575571d89d2b5853f903dcd5b1358014d7d977ec64a5",
+    "selected_checkpoint_metadata": "03de47beb29320aea32a69331c1d5805b23929cf2bc77274195b2ccd5d94accc",
+    "selected_checkpoint_model": "14dba40d2de437f082aece9b342931a48c58202ae4242d577d4a4ffd7eecaab3"
+  },
+  "protected_unchanged": true,
+  "schema_version": 1,
+  "scientific_status": "EXPLORATORY_DEV_ONLY_POST_FREEZE_RENDER_ONLY",
+  "script": {
+    "path": "protocol/visualize_pcra_u_development_audit.py",
+    "sha256": "6772e40aab15ddd8fcacfd9a65a1aa618870fdfa4a61ef8e4665ce975d4aaae7"
+  },
+  "source_tables": [
+    {
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/tables/table_dev_failure_cases_exploratory.csv",
+      "sha256": "70e80597f7b23572abc7da227fcf2d6e07b567601d9aa61ad6ec2bf04b0278dd"
+    },
+    {
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/tables/table_dev_method_comparison_exploratory.csv",
+      "sha256": "c18c4c4976c54e0f94c236f2878c41c79537d8bfe2497ac56a432e3e8f69671a"
+    },
+    {
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/tables/table_dev_paired_deltas_exploratory.csv",
+      "sha256": "b19a1414b615e4c3bae8a8f2186228b076b6ffab02a6fd337f2f442c0d7a9ecc"
+    }
+  ],
+  "supplement_id": "pcra_u_development_audit_visualization_v1"
+}

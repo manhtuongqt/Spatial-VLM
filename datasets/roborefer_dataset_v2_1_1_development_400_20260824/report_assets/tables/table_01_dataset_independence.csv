@@ -1,0 +1,6 @@
+split,independent_families,dependent_samples,FOUND,AMBIGUOUS,ABSENT,INSUFFICIENT_EVIDENCE,depth_dependent,OOD,scientific_status
+train,320,1600,128,56,56,80,208,0,OBSERVED_DEVELOPMENT_FULL_QC_PASS
+dev,80,400,32,14,14,20,52,0,OBSERVED_DEVELOPMENT_FULL_QC_PASS
+calibration,0,0,0,0,0,0,0,0,NOT_CREATED
+test_iid,0,0,0,0,0,0,0,0,NOT_CREATED
+test_ood,0,0,0,0,0,0,0,0,NOT_CREATED

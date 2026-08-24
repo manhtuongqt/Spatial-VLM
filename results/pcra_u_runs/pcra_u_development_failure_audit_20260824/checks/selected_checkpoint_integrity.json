@@ -1,0 +1,48 @@
+{
+  "checkpoint_audit": {
+    "auto_deleted": [],
+    "checkpoint_root": "/home/dhcn/ur_ws/src/myproject/results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development",
+    "invalid_checkpoints": [],
+    "passed": true,
+    "pointers": {
+      "best_dev_total_loss.json": {
+        "target": "step_000002000",
+        "valid": true
+      },
+      "last.json": {
+        "target": "step_000003000",
+        "valid": true
+      }
+    },
+    "schema_version": 1,
+    "stale_temporary_directories": [],
+    "valid_checkpoints": [
+      "step_000000200",
+      "step_000000400",
+      "step_000000600",
+      "step_000000800",
+      "step_000001000",
+      "step_000001200",
+      "step_000001400",
+      "step_000001600",
+      "step_000001800",
+      "step_000002000",
+      "step_000002200",
+      "step_000002400",
+      "step_000002600",
+      "step_000002800",
+      "step_000003000"
+    ]
+  },
+  "load_verification": {
+    "checkpoint_dir": "/home/dhcn/ur_ws/src/myproject/results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000",
+    "checkpoint_id": "step_000002000",
+    "hash_mismatches": [],
+    "manifest_sha256": "b59f742727d35cdbb2c9575571d89d2b5853f903dcd5b1358014d7d977ec64a5",
+    "metadata_consistent": true,
+    "missing": [],
+    "passed": true,
+    "size_mismatches": []
+  },
+  "passed": true
+}

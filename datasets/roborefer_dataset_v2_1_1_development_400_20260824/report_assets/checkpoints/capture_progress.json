@@ -1,0 +1,13 @@
+{
+  "active_batch": "batch_004",
+  "capture_source_sha256": "6715b524447228f897214a78547843951e6bc26c4ad9a7fa9fa1bbaadb1efe7b",
+  "checkpoint": "FAMILY_PROGRESS",
+  "completed_capture_count": 800,
+  "completed_family_count": 400,
+  "created_at_utc": "2026-08-24T05:52:39.867420+00:00",
+  "last_completed_family_id": "v211dev_family_000137",
+  "protocol_id": "roborefer_dataset_v2_1_1_development_capture_400",
+  "raw_capture_complete": true,
+  "raw_capture_manifest_sha256": "6d0c2126d5fc5f8f8232252cd0216fa8e593bb5aa78bf5f4d700e39d989d3e01",
+  "schema_version": 1
+}

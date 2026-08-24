@@ -1,0 +1,21 @@
+{
+  "decision": "RETAIN_V1_STEP_2000_REJECT_V1_1",
+  "gates": {
+    "all_checkpoint_epoch_metric_crosslinks_pass": true,
+    "all_seed_reports_fail_only_without_eligible_selection": true,
+    "all_sixty_checkpoint_manifests_and_hashes_manager_audit_pass": true,
+    "all_sixty_epoch_artifacts_valid_exact_denominators": true,
+    "all_twelve_thousand_optimizer_steps_finite_and_sequential": true,
+    "calibration_and_tests_sealed": true,
+    "campaign_failure_report_and_protected_hashes_consistent": true,
+    "critical_inputs_unchanged_during_audit": true,
+    "exact_three_seeds_twenty_epochs_sixty_epoch_json": true,
+    "locked_live_inputs_match_campaign_snapshots": true,
+    "locked_v1_epoch10_step2000_unchanged_and_verified": true,
+    "no_best_pointer_and_no_winner_predictions": true,
+    "prediction_and_bootstrap_prerequisites_failed_so_not_run": true,
+    "table_generation_typeerror_isolated_after_training_and_reports": true,
+    "zero_of_sixty_checkpoints_eligible": true
+  },
+  "passed": true
+}

@@ -1,0 +1,32 @@
+{
+  "calibration_fit": false,
+  "completed_in_this_invocation": 800,
+  "created_at_utc": "2026-08-24T07:33:23.666133+00:00",
+  "elapsed_seconds_this_invocation": 1186.9743446430002,
+  "family_count": 80,
+  "greedy_seed": 8132026,
+  "mean_latency_ms": {
+    "B0": 1064.9688848200003,
+    "B1": 1894.6115912550338
+  },
+  "method_counts": {
+    "B0": 400,
+    "B1": 400
+  },
+  "model_inventory_sha256": "5508fb49888c1f62b875d928266f7fff3e1224c795f6fc8b971631143a45a7fa",
+  "oracle_or_annotation_read_by_runner": false,
+  "parse_counts": {
+    "B0:EXACT_ONE_NORMALIZED_POINT": 400,
+    "B1:EXACT_ONE_NORMALIZED_POINT": 400
+  },
+  "predictions_path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/predictions/roborefer_baselines_dev.jsonl",
+  "predictions_sha256": "c7680e66494992230c869062b9a8ffbdb7bdeca9f7ef6d9f028892cde98d5a4a",
+  "protocol_id": "pcra_u_development_failure_audit_v1",
+  "record_count": 800,
+  "robot_manipulation_performed": false,
+  "sample_count": 400,
+  "schema_version": 1,
+  "scientific_status": "EXPLORATORY_DEV_ONLY",
+  "status": "COMPLETE",
+  "test_opened": false
+}

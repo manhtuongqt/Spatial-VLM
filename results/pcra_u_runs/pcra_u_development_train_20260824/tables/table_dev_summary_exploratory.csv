@@ -1,0 +1,2 @@
+scientific_status,dev_total_loss,answerability_accuracy,answerability_macro_f1,false_found_rate,point_in_target,point_in_interior,mass_in_target,source_micro_f1
+EXPLORATORY_DEV_ONLY,1.3516128184007745,0.7475,0.7420238435082854,0.09473684210526316,0.8571428571428571,0.8273809523809523,0.5450539907083362,0.5876288659793815

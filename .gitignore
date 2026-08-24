@@ -1,0 +1,53 @@
+# Local Python / test state
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Local environments and ROS 2 build products
+.conda-roborefer/
+.venv/
+venv/
+build/
+install/
+log/
+
+# External or separately versioned source trees
+RoboRefer/
+sam2/
+ur3/
+
+# Large generated data and experiment storage
+datasets/
+results/
+metrics/
+ketqua/[0-9][0-9]_*/
+protocol/logs/
+
+# Model weights, caches, checkpoints, and ROS recordings
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.npy
+*.npz
+*.bag
+*.db3
+
+# Credentials and machine-local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.credentials
+
+# Editor / OS files
+.vscode/
+.idea/
+*~
+.DS_Store
+

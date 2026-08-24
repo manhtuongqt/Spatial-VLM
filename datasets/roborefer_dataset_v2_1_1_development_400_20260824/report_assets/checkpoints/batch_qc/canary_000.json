@@ -1,0 +1,30 @@
+{
+  "batch_id": "canary_000",
+  "calibration_or_test_created": false,
+  "capture_plan_sha256": "a43b68979f36f50dd25f064a697f20a29bd1b899862bcb3452ff33350a2ca6b9",
+  "decision": "GO_NEXT_V2_1_DEVELOPMENT_BATCH",
+  "duplicate_cross_family_raw_signatures": [],
+  "errors": [],
+  "execution_lock_sha256": "ff2b5b4f22ff6030ecf0c932466259c1d8f7e5514ee1d1e12490506d18fbfb84",
+  "expected_capture_count": 40,
+  "family_count": 20,
+  "generated_at_utc": "2026-08-24T05:30:42.252676+00:00",
+  "manifest_sha256": "9dcc239e1be232c6869f3b066fa32a2be9cdf5386eda31e2b896e4ac7b2c26c6",
+  "max_timestamp_spread_sec": 0.03300000000000125,
+  "mean_valid_depth_fraction": 0.9918033854166668,
+  "ordered_shutdown_passed": true,
+  "passed": true,
+  "protocol_id": "roborefer_dataset_v2_1_1_development_capture_400",
+  "real_capture_qc_evidence": {
+    "index_sha256": "142fe9124bb07f2c0bc113c7843ad9868fe3c5b7492f75559d6539ca1b13328f",
+    "path": "report_assets/real_capture_qc/canary_000",
+    "selected_family_count": 4
+  },
+  "relation_checks": 18,
+  "relation_failures": [],
+  "relation_geometry_version": "dataset_v2_relation_geometry_v2_1.1.0",
+  "relation_not_evaluable_allowed": 0,
+  "schema_version": 1,
+  "training_performed": false,
+  "valid_capture_count": 40
+}

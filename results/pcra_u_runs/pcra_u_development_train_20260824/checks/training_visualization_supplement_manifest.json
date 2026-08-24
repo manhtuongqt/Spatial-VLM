@@ -1,0 +1,290 @@
+{
+  "caveats": [
+    "One deterministic training run/seed; no between-run confidence intervals.",
+    "Dev was repeatedly evaluated for checkpoint selection, so all task trajectories are exploratory.",
+    "The rolling q10-q90 band describes minibatch variability and is not a confidence interval.",
+    "Global gradient norms are pre-clip; post-clip norms were not logged.",
+    "Variants within the same family are not statistically independent observations."
+  ],
+  "claims": {
+    "calibration_fit": false,
+    "derived_display_aggregation_only": true,
+    "inference": false,
+    "model_loaded": false,
+    "model_metrics_recomputed": false,
+    "optimizer_steps_executed": 0,
+    "protected_artifacts_unchanged": true,
+    "render_only": true,
+    "tables_02_to_06": "NOT_RUN",
+    "test_opened": false
+  },
+  "created_at_utc": "2026-08-24T00:00:00+00:00",
+  "environment": {
+    "matplotlib": "3.11.0",
+    "numpy": "2.2.6",
+    "python": "3.12.3"
+  },
+  "outputs": [
+    {
+      "bytes": 2381,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/TRAINING_VISUALIZATION_SUPPLEMENT.md",
+      "sha256": "e7c74520a0d73daddf92cc62c0530ab3f8954d83a3585cc986d9828c7f963b06"
+    },
+    {
+      "bytes": 609508,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/figures/F03_development_convergence_checkpoint_selection.png",
+      "sha256": "6c27f4c964470d83e2cd753f17077d12f54ef99b6583154efb68cb811ca62f1b"
+    },
+    {
+      "bytes": 405444,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/figures/F03_development_convergence_checkpoint_selection.svg",
+      "sha256": "81b3a605ad466a3f63b38d569df7af3ed69ba7f9e8dcc9561d2fe56ca37e5faf"
+    },
+    {
+      "bytes": 654828,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/figures/F04_development_optimization_health.png",
+      "sha256": "539fce93ce812c879208573f8b13107dc18d7fbf7409121dcf7ce34298d3ed82"
+    },
+    {
+      "bytes": 518808,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/figures/F04_development_optimization_health.svg",
+      "sha256": "521e549d88e4b6efa938a6e74d61124cb8de4c0b7641a48cd4137f3fa26a04a0"
+    },
+    {
+      "bytes": 377401,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/figures/F05_development_checkpoint_task_trajectory.png",
+      "sha256": "83d66fd020fe458c443a8326de0abeb1c00bbcb94e30f53020fe18a27cb0dac6"
+    },
+    {
+      "bytes": 149766,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/figures/F05_development_checkpoint_task_trajectory.svg",
+      "sha256": "d1f030e0c1e5130229064005cd7c2871fcfde464ed5988a7a716ff56e4fde870"
+    },
+    {
+      "bytes": 4366,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/tables/table_development_epoch_trajectory_visualization.csv",
+      "sha256": "ad2da75b47b138e1e953e72d95038e6fadd58871b4979157ef9caeb8a3e07c45"
+    },
+    {
+      "bytes": 2919,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/tables/table_development_optimizer_epoch_summary.csv",
+      "sha256": "7661a9088fcaabc2bbbcd4f7cba56da1a584fda5ff9fd98b1832399b2a9f3589"
+    }
+  ],
+  "protected_artifacts": [
+    {
+      "name": "architecture_freeze_lock",
+      "path": "protocol/pcra_u_architecture_freeze_lock.json",
+      "sha256_after": "aa897d0dedde31b4a3f1e7cf45a1336c8b163097f6c93de9f6a8b90a732aea4f",
+      "sha256_before": "aa897d0dedde31b4a3f1e7cf45a1336c8b163097f6c93de9f6a8b90a732aea4f",
+      "unchanged": true
+    },
+    {
+      "name": "execution_lock",
+      "path": "protocol/pcra_u_development_execution_lock.json",
+      "sha256_after": "43aad05392666e6fc7a2d7d5d325070b94a3e618e5ac7e740bcc54d61173921b",
+      "sha256_before": "43aad05392666e6fc7a2d7d5d325070b94a3e618e5ac7e740bcc54d61173921b",
+      "unchanged": true
+    },
+    {
+      "name": "failure_audit_report",
+      "path": "results/pcra_u_runs/pcra_u_development_failure_audit_20260824/PCRA_U_DEVELOPMENT_FAILURE_AUDIT_REPORT.json",
+      "sha256_after": "6e44ebde6ae516d0a64c8b0a532e46faff7fdf65448b678fdc743b054ffef5ac",
+      "sha256_before": "6e44ebde6ae516d0a64c8b0a532e46faff7fdf65448b678fdc743b054ffef5ac",
+      "unchanged": true
+    },
+    {
+      "name": "feature_manifest",
+      "path": "protocol/pcra_u_development_feature_manifest.json",
+      "sha256_after": "113b3e88196596569ec1d23156564cecae15e5763ddc74525e3f0b13ab1520a4",
+      "sha256_before": "113b3e88196596569ec1d23156564cecae15e5763ddc74525e3f0b13ab1520a4",
+      "unchanged": true
+    },
+    {
+      "name": "locked_feature_index",
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/locked_inputs/index_full.json",
+      "sha256_after": "70635252307f412c79a71ce004d940167ab8b670958b3e22fbd96d3dc9eaf905",
+      "sha256_before": "70635252307f412c79a71ce004d940167ab8b670958b3e22fbd96d3dc9eaf905",
+      "unchanged": true
+    },
+    {
+      "name": "selected_checkpoint_manifest",
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/manifest.json",
+      "sha256_after": "b59f742727d35cdbb2c9575571d89d2b5853f903dcd5b1358014d7d977ec64a5",
+      "sha256_before": "b59f742727d35cdbb2c9575571d89d2b5853f903dcd5b1358014d7d977ec64a5",
+      "unchanged": true
+    },
+    {
+      "name": "selected_checkpoint_metadata",
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/metadata.json",
+      "sha256_after": "03de47beb29320aea32a69331c1d5805b23929cf2bc77274195b2ccd5d94accc",
+      "sha256_before": "03de47beb29320aea32a69331c1d5805b23929cf2bc77274195b2ccd5d94accc",
+      "unchanged": true
+    },
+    {
+      "name": "selected_checkpoint_model",
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/model.safetensors",
+      "sha256_after": "14dba40d2de437f082aece9b342931a48c58202ae4242d577d4a4ffd7eecaab3",
+      "sha256_before": "14dba40d2de437f082aece9b342931a48c58202ae4242d577d4a4ffd7eecaab3",
+      "unchanged": true
+    },
+    {
+      "name": "train_config",
+      "path": "protocol/pcra_u_development_train_config.json",
+      "sha256_after": "bf689c54c9be780dd9dfcfeea8acfd355d3f778bef881cd9e81f06162207c14a",
+      "sha256_before": "bf689c54c9be780dd9dfcfeea8acfd355d3f778bef881cd9e81f06162207c14a",
+      "unchanged": true
+    },
+    {
+      "name": "train_contract",
+      "path": "protocol/PCRA_U_DEVELOPMENT_TRAIN_CONTRACT.md",
+      "sha256_after": "796b937124de60382448bcfb1d3f8e071dfd061141521f54118988be872492b3",
+      "sha256_before": "796b937124de60382448bcfb1d3f8e071dfd061141521f54118988be872492b3",
+      "unchanged": true
+    },
+    {
+      "name": "train_manifest",
+      "path": "protocol/pcra_u_development_train_manifest.json",
+      "sha256_after": "1de697018ad22c51498c4e17d1c6b82220b9829e1e9dbc0dab6601c3570f6745",
+      "sha256_before": "1de697018ad22c51498c4e17d1c6b82220b9829e1e9dbc0dab6601c3570f6745",
+      "unchanged": true
+    },
+    {
+      "name": "training_code",
+      "path": "protocol/pcra_u_development_train.py",
+      "sha256_after": "de28a0ab9d34290583237ab50878e77cd9a52971198cfb6fa1d87eccb9b44896",
+      "sha256_before": "de28a0ab9d34290583237ab50878e77cd9a52971198cfb6fa1d87eccb9b44896",
+      "unchanged": true
+    },
+    {
+      "name": "training_common_code",
+      "path": "protocol/pcra_u_development_common.py",
+      "sha256_after": "95b17f41b1526d1b760177fae4240ecd8bf96f37a4a936405d9cda6667571bfc",
+      "sha256_before": "95b17f41b1526d1b760177fae4240ecd8bf96f37a4a936405d9cda6667571bfc",
+      "unchanged": true
+    },
+    {
+      "name": "training_report",
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/PCRA_U_DEVELOPMENT_TRAIN_REPORT.json",
+      "sha256_after": "5c0873766ac5e637190e589a7eeaf77c2bef2da429d1dd50551836ca3738a805",
+      "sha256_before": "5c0873766ac5e637190e589a7eeaf77c2bef2da429d1dd50551836ca3738a805",
+      "unchanged": true
+    }
+  ],
+  "schema_version": 1,
+  "scientific_status": "EXPLORATORY_DEV_ONLY_POST_TRAIN_RENDER_ONLY",
+  "script": {
+    "path": "protocol/visualize_pcra_u_development_training.py",
+    "sha256": "0cb29032b84c2d437e2f0d31266479a3e975dbb2ad2b7c7a34bf23e989c43a98"
+  },
+  "sources": [
+    {
+      "bytes": 1285160,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/logs/development_metrics.jsonl",
+      "sha256": "3f56296a3929d20f47d80a1a5764c8288d00045ac73c23a59de0fecac994ceba"
+    },
+    {
+      "bytes": 1844,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/tables/table_07_training_checkpoint.csv",
+      "sha256": "22c04e1eb6db9d32d1784bb80e97508118cfd811f4421da21e7bfca75062c8dd"
+    },
+    {
+      "bytes": 3998,
+      "path": "protocol/pcra_u_development_train_config.json",
+      "sha256": "bf689c54c9be780dd9dfcfeea8acfd355d3f778bef881cd9e81f06162207c14a"
+    },
+    {
+      "bytes": 464,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/best_dev_total_loss.json",
+      "sha256": "e045317e028c9300363f33e44a9e74a5c5cda8c8d2fbbb025c0eb48194474d99"
+    },
+    {
+      "bytes": 237180,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_001.json",
+      "sha256": "7f86139f8e7fdbd4f67a4c273061057de903dd8b05c14d0980d51f03c383ddb8"
+    },
+    {
+      "bytes": 236173,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_002.json",
+      "sha256": "ce94929ef2db19ea560878c97328fc2faaf606a0975b44fbabdb3e93c18bc310"
+    },
+    {
+      "bytes": 235119,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_003.json",
+      "sha256": "ae9534283f11e3677c6d56f2936a6cfc5c179811181479aa883c3578963a1268"
+    },
+    {
+      "bytes": 230851,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_004.json",
+      "sha256": "8ef101aaecd3f59ad1ba59d86c7e920e4023a0e57d4e63afb0564dbc86337cf5"
+    },
+    {
+      "bytes": 229005,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_005.json",
+      "sha256": "9bf2fb4c385b5142d431004dc759439afcb8312f9e339456855cdfcbfd0d4ca4"
+    },
+    {
+      "bytes": 232156,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_006.json",
+      "sha256": "67e85208003e01f20677ee9d3ae7f2a14c81e46faaed908c3ff4f49fad7f17cf"
+    },
+    {
+      "bytes": 228786,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_007.json",
+      "sha256": "7e26da3f582a5ec08acdad0afb37b112863e6b801210746d434b59a227a92ae4"
+    },
+    {
+      "bytes": 224868,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_008.json",
+      "sha256": "b3fa52b2f21cb74b307f3f5b092f642879c367af6d795a4f6eb1bc8fd021728e"
+    },
+    {
+      "bytes": 225619,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_009.json",
+      "sha256": "b06b0dadc67eb2c10957f815358f1868c7b45b45680bf0fc3d435cdf4d8a39e7"
+    },
+    {
+      "bytes": 229292,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_010.json",
+      "sha256": "58134b52143f07e9cc37310a336c54d992479f5ba70016bf016a149d8299b3a1"
+    },
+    {
+      "bytes": 225298,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_011.json",
+      "sha256": "91c25ee8f4e78f277279dbc8e98bbde4287180ec8e9a95b4a2e064ed6efa2843"
+    },
+    {
+      "bytes": 224773,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_012.json",
+      "sha256": "b5bde1bb8aa9b72d979a39a38f3bef36d6bdb78cd7c1c261828b5b2b4edadcbc"
+    },
+    {
+      "bytes": 224520,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_013.json",
+      "sha256": "c3bf8ce5bfc89d2fc313644f4e885b8e439dc430cc7ced024805bcfda5e5c545"
+    },
+    {
+      "bytes": 225082,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_014.json",
+      "sha256": "cf7f5a90332bcac99e7d8a7f9afa1ac0a4539587085c17001c89178a06a0d0e6"
+    },
+    {
+      "bytes": 224810,
+      "path": "results/pcra_u_runs/pcra_u_development_train_20260824/metrics/development_epoch_015.json",
+      "sha256": "a9a9ace10a80f8730b7559d936b02b391f4e2b165a7a30edbbb8ab4ce3d0c2e3"
+    }
+  ],
+  "supplement_id": "pcra_u_development_training_visualization_v1",
+  "validation": {
+    "all_logged_steps_finite": true,
+    "epoch_evaluations": 15,
+    "global_gradient_preclip_above_5_count": 1360,
+    "global_gradient_preclip_above_5_rate": 0.4533333333333333,
+    "global_gradient_preclip_max": 25.54293441772461,
+    "optimizer_steps": 3000,
+    "selected_epoch": 10,
+    "selected_step": 2000,
+    "step_loss_identity_max_abs_error": 2.384185791015625e-07,
+    "target_head_zero_gradient_steps": 31
+  }
+}

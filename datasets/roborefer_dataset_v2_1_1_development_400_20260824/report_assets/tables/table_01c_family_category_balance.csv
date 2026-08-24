@@ -1,0 +1,13 @@
+split,family_category,independent_families
+dev,direct_grounding,12
+dev,front_behind_camera,12
+dev,multi_anchor_depth_order,12
+dev,nearer_farther,14
+dev,occlusion_depth_evidence,14
+dev,relation_2d,16
+train,direct_grounding,48
+train,front_behind_camera,48
+train,multi_anchor_depth_order,48
+train,nearer_farther,56
+train,occlusion_depth_evidence,56
+train,relation_2d,64

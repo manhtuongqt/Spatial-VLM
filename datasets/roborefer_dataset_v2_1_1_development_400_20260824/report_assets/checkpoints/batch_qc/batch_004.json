@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch_004",
+  "calibration_or_test_created": false,
+  "capture_plan_sha256": "a43b68979f36f50dd25f064a697f20a29bd1b899862bcb3452ff33350a2ca6b9",
+  "decision": "GO_FULL_V2_1_MATERIALIZATION_QC",
+  "duplicate_cross_family_raw_signatures": [],
+  "errors": [],
+  "execution_lock_sha256": "ff2b5b4f22ff6030ecf0c932466259c1d8f7e5514ee1d1e12490506d18fbfb84",
+  "expected_capture_count": 190,
+  "family_count": 95,
+  "generated_at_utc": "2026-08-24T05:52:42.949420+00:00",
+  "manifest_sha256": "9dcc239e1be232c6869f3b066fa32a2be9cdf5386eda31e2b896e4ac7b2c26c6",
+  "max_timestamp_spread_sec": 0.03300000000001546,
+  "mean_valid_depth_fraction": 0.9906380208333333,
+  "ordered_shutdown_passed": true,
+  "passed": true,
+  "protocol_id": "roborefer_dataset_v2_1_1_development_capture_400",
+  "real_capture_qc_evidence": {
+    "index_sha256": "6b7256c9db114e5c5611ea3430ebe76b6bd3c57bc32d5cf33179b1df475924b5",
+    "path": "report_assets/real_capture_qc/batch_004",
+    "selected_family_count": 4
+  },
+  "relation_checks": 85,
+  "relation_failures": [],
+  "relation_geometry_version": "dataset_v2_relation_geometry_v2_1.1.0",
+  "relation_not_evaluable_allowed": 6,
+  "schema_version": 1,
+  "training_performed": false,
+  "valid_capture_count": 190
+}

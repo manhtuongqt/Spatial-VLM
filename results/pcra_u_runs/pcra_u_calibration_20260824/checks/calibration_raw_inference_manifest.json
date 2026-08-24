@@ -1,0 +1,43 @@
+{
+  "architecture_freeze_lock_sha256": "aa897d0dedde31b4a3f1e7cf45a1336c8b163097f6c93de9f6a8b90a732aea4f",
+  "baseline_modified": false,
+  "checkpoint_model_sha256": "14dba40d2de437f082aece9b342931a48c58202ae4242d577d4a4ffd7eecaab3",
+  "checkpoint_original_development_identity": {
+    "checkpoint_manager_sha256": "be7cc1d4c0bdbc99bfb18caf9bf93cab68942c9b37f67a44930f4a47cbee0ce3",
+    "common_code_sha256": "95b17f41b1526d1b760177fae4240ecd8bf96f37a4a936405d9cda6667571bfc",
+    "config_sha256": "bf689c54c9be780dd9dfcfeea8acfd355d3f778bef881cd9e81f06162207c14a",
+    "contract_sha256": "796b937124de60382448bcfb1d3f8e071dfd061141521f54118988be872492b3",
+    "execution_lock_sha256": "43aad05392666e6fc7a2d7d5d325070b94a3e618e5ac7e740bcc54d61173921b",
+    "feature_cache_index_sha256": "70635252307f412c79a71ce004d940167ab8b670958b3e22fbd96d3dc9eaf905",
+    "feature_manifest_sha256": "113b3e88196596569ec1d23156564cecae15e5763ddc74525e3f0b13ab1520a4",
+    "train_manifest_sha256": "1de697018ad22c51498c4e17d1c6b82220b9829e1e9dbc0dab6601c3570f6745",
+    "training_code_sha256": "de28a0ab9d34290583237ab50878e77cd9a52971198cfb6fa1d87eccb9b44896"
+  },
+  "checkpoint_path": "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000",
+  "checkpoint_selection_performed": false,
+  "config_sha256": "48d0cae9eca1175310c6202591e715e83dd18243e37721d70879bddfac460f73",
+  "created_at_utc": "2026-08-24T09:09:53.069737+00:00",
+  "feature_cache_index_sha256": "b64e68315145e5f4ea9688f8417be6911ff5175a827bc0328922bfe38bff9e37",
+  "feature_manifest_sha256": "0df1790a33dfe25ce4855d70a22cae731b9fdf6f5cd87a113fd0841d4658cad3",
+  "inference_code_sha256": "678d932f390a078b38823105c13e50ad8db9a435881adb02034703338727815f",
+  "model_training_performed": false,
+  "oracle_or_annotation_read": false,
+  "prediction_count": 1000,
+  "predictions_path": "results/pcra_u_runs/pcra_u_calibration_20260824/predictions/calibration_raw_predictions.jsonl",
+  "predictions_sha256": "d0cca01b7a3724e7e508e1c8e17bfda4e5fa6a5f4b3f04ed1d0bfc3d47ca661a",
+  "protocol_id": "pcra_u_calibration_v1",
+  "robot_publish": false,
+  "runtime": {
+    "device": "cuda",
+    "elapsed_seconds": 4.106424999999945,
+    "gpu": "NVIDIA RTX 2000 Ada Generation",
+    "optimizer_steps": 0,
+    "torch": "2.5.1+cu124"
+  },
+  "schema_version": 1,
+  "split": "calibration",
+  "status": "COMPLETE_ORACLE_FREE_RAW_INFERENCE",
+  "test_iid_opened": false,
+  "test_ood_opened": false,
+  "test_opened": false
+}

@@ -1,0 +1,29 @@
+{
+  "campaign_gate": {
+    "path": "results/pcra_u_runs/pcra_u_development_v1_1_campaign_20260824/checks/campaign_gate.json",
+    "sha256": "55252bb513243d249cf0d09718beb527790ddff488b2c920cfa744f0e049d18b"
+  },
+  "campaign_report": {
+    "path": "results/pcra_u_runs/pcra_u_development_v1_1_campaign_20260824/PCRA_U_DEVELOPMENT_V1_1_CAMPAIGN_REPORT.json",
+    "sha256": "55252bb513243d249cf0d09718beb527790ddff488b2c920cfa744f0e049d18b"
+  },
+  "checkpoint_inventory_canonical_sha256": "422f114e653579b94de6a93a99d59c9c3fdf65a50500b7e5d0f400e439876337",
+  "checkpoint_inventory_count": 60,
+  "critical_input_hashes": {
+    "protocol/pcra_u_development_v1_1_common.py": "aeeb5561927fd606f3f05271bd78f277df44179a63cd19baf69b7073275a0aea",
+    "protocol/pcra_u_development_v1_1_config.json": "8af4da5d8fde3a8c2a5112744bfd14ac8509d2983622d4913f5a74d177334c12",
+    "protocol/pcra_u_development_v1_1_manifest.json": "2f620c609cec60f32c07cd480636245e19d15c63fb5a14241ba46ae0651910f9",
+    "protocol/pcra_u_development_v1_1_preflight_lock.json": "ae96444ad58e9822a5e2144a5c25437fc5ccfeb58ec906b0da6c7b7a46187d00",
+    "protocol/pcra_u_development_v1_1_train.py": "95eafde44127f0adbe471b33f89665bed9cb71dd1461b7f6db60d7df46caf820",
+    "results/pcra_u_runs/pcra_u_development_train_20260824/PCRA_U_DEVELOPMENT_TRAIN_REPORT.json": "5c0873766ac5e637190e589a7eeaf77c2bef2da429d1dd50551836ca3738a805",
+    "results/pcra_u_runs/pcra_u_development_train_20260824/checkpoints/development/step_000002000/model.safetensors": "14dba40d2de437f082aece9b342931a48c58202ae4242d577d4a4ffd7eecaab3",
+    "results/pcra_u_runs/pcra_u_development_train_20260824/predictions/dev_predictions_exploratory.json": "3f6c68dc50611205cd4213911b8b59822cefd85487780f610c6ae409720d22d2",
+    "results/pcra_u_runs/pcra_u_development_v1_1_campaign_20260824/PCRA_U_DEVELOPMENT_V1_1_CAMPAIGN_REPORT.json": "55252bb513243d249cf0d09718beb527790ddff488b2c920cfa744f0e049d18b",
+    "results/pcra_u_runs/pcra_u_development_v1_1_campaign_20260824/checks/campaign_gate.json": "55252bb513243d249cf0d09718beb527790ddff488b2c920cfa744f0e049d18b"
+  },
+  "failure_audit_script": {
+    "path": "protocol/pcra_u_development_v1_1_failure_audit.py",
+    "sha256": "5e70912eb06a8b5e9afb1e2e6a465cb185db14f996e126081437ce661f0db9fa"
+  },
+  "schema_version": 1
+}

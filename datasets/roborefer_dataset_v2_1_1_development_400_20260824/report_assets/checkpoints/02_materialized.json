@@ -1,0 +1,11 @@
+{
+  "checkpoint": "V2_1_DEVELOPMENT_2000_MATERIALIZED",
+  "created_at_utc": "2026-08-24T05:53:33.575670+00:00",
+  "dataset_index_sha256": "84e6357ae3b63d374935539f927a6b83ff7b911ae98e2fbcdb525efa19ea24ba",
+  "family_count": 400,
+  "materializer_source_sha256": "9dde5836d25cc3af3103f081404554009b1ddfd3bcb27c668f37aa8e1042edb8",
+  "protocol_id": "roborefer_dataset_v2_1_1_development_capture_400",
+  "record_count": 2000,
+  "schema_version": 1,
+  "training_performed": false
+}

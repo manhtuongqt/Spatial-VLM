@@ -1,0 +1,6 @@
+{
+  "calibration_fit": false,
+  "only_train_dev_splits_in_training_manifest": true,
+  "tables_02_to_06": "NOT_RUN",
+  "test_opened": false
+}

@@ -1,0 +1,2 @@
+scientific_status,calibrator,mode,threshold,target_error_risk,minimum_accepted_families,coverage,accepted_samples,accepted_families,empirical_accepted_error_risk,coverage_ci95_low,coverage_ci95_high,risk_ci95_low,risk_ci95_high,risk_bootstrap_upper_95pct,reason
+CALIBRATION_FIT_ONLY,multimodal_platt_fullfit,ABSTAIN_ALL,,0.05,60,0.0,0,0,,0.0,0.0,,,,No threshold met risk<=0.050000 and accepted_families>=60

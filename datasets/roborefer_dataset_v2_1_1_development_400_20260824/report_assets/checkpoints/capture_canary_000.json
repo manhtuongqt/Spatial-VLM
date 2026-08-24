@@ -1,0 +1,12 @@
+{
+  "batch_id": "canary_000",
+  "capture_count": 40,
+  "capture_plan_sha256": "a43b68979f36f50dd25f064a697f20a29bd1b899862bcb3452ff33350a2ca6b9",
+  "created_at_utc": "2026-08-24T05:30:23.109948+00:00",
+  "execution_lock_sha256": "ff2b5b4f22ff6030ecf0c932466259c1d8f7e5514ee1d1e12490506d18fbfb84",
+  "family_count": 20,
+  "protocol_id": "roborefer_dataset_v2_1_1_development_capture_400",
+  "schema_version": 1,
+  "status": "CAPTURE_COMPLETE_AWAITING_BATCH_QC",
+  "training_performed": false
+}

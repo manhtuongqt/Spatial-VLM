@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "protocol_id": "pcra_u_development_train_v1",
+  "audited_at_local": "2026-08-24T13:51:01+07:00",
+  "passed": true,
+  "checkpoint_audit": {
+    "valid_checkpoints": 15,
+    "invalid_checkpoints": 0,
+    "stale_temporary_directories": 0,
+    "best_pointer": "step_000002000",
+    "last_pointer": "step_000003000"
+  },
+  "hashes": {
+    "development_report_json": "5c0873766ac5e637190e589a7eeaf77c2bef2da429d1dd50551836ca3738a805",
+    "selected_model_safetensors": "14dba40d2de437f082aece9b342931a48c58202ae4242d577d4a4ffd7eecaab3",
+    "full_feature_index": "70635252307f412c79a71ce004d940167ab8b670958b3e22fbd96d3dc9eaf905",
+    "execution_lock": "43aad05392666e6fc7a2d7d5d325070b94a3e618e5ac7e740bcc54d61173921b"
+  },
+  "safety": {
+    "gradient_split": "train",
+    "selection_split": "dev",
+    "calibration_fit": false,
+    "test_opened": false,
+    "tables_02_to_06": "NOT_RUN",
+    "baseline_modified": false
+  }
+}

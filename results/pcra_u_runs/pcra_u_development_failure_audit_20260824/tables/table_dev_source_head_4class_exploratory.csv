@@ -1,0 +1,5 @@
+scientific_status,head_type,source,positive_samples,tp,fp,fn,precision,recall,f1
+EXPLORATORY_DEV_ONLY,four_label_multilabel_not_four_way_classification,semantic,95,73,55,22,0.5703125,0.7684210526315789,0.6547085201793721
+EXPLORATORY_DEV_ONLY,four_label_multilabel_not_four_way_classification,relation,95,72,55,23,0.5669291338582677,0.7578947368421053,0.6486486486486487
+EXPLORATORY_DEV_ONLY,four_label_multilabel_not_four_way_classification,depth,67,40,15,27,0.7272727272727273,0.5970149253731343,0.6557377049180327
+EXPLORATORY_DEV_ONLY,four_label_multilabel_not_four_way_classification,occlusion,70,43,96,27,0.30935251798561153,0.6142857142857143,0.41148325358851673

@@ -1,0 +1,192 @@
+{
+  "file_count": 37,
+  "files": [
+    {
+      "bytes": 25776,
+      "path": "PCRA_U_DEVELOPMENT_FAILURE_AUDIT_REPORT.json",
+      "sha256": "2745cd96f16eb35d5f353b4bf345873558e9a160a6fd7c77e7170e15d4322621"
+    },
+    {
+      "bytes": 2018,
+      "path": "PCRA_U_DEVELOPMENT_FAILURE_AUDIT_REPORT.md",
+      "sha256": "2308bca03f5085f58c9dcfc9135395871107a18d69f4ccfc2af39d9277d31b18"
+    },
+    {
+      "bytes": 343,
+      "path": "RUN_CARD.md",
+      "sha256": "7fda545dda2d6312ef62965409e14b5a17b82924b8214e5993b6fd7371ed8539"
+    },
+    {
+      "bytes": 1107,
+      "path": "checks/baseline_inference_manifest.json",
+      "sha256": "c49a3f8064bcfffad0e078b7ffc64c66dbb0b2318d580ce29f28b3a3f9bf5776"
+    },
+    {
+      "bytes": 25776,
+      "path": "checks/development_failure_audit_gate.json",
+      "sha256": "2745cd96f16eb35d5f353b4bf345873558e9a160a6fd7c77e7170e15d4322621"
+    },
+    {
+      "bytes": 141,
+      "path": "checks/sealed_split_attestation.json",
+      "sha256": "a22aa1a47b32de71abd3e296b6f54cbff52dc5711e5777fcdfb8d2223361af97"
+    },
+    {
+      "bytes": 1365,
+      "path": "checks/selected_checkpoint_integrity.json",
+      "sha256": "045fd1b0eedaecd50d9437c1955c07bfec302f7cd821b5aa4086de5bc9a4bd75"
+    },
+    {
+      "bytes": 3683,
+      "path": "figures/F09_dev_ablation_paired_family_bootstrap.svg",
+      "sha256": "59ad04f5a18b0ef1b19dc454b5b4208bfbeb3d63f37acdfdc7eedeb29e2d4d8d"
+    },
+    {
+      "bytes": 44245,
+      "path": "images/failure_cases_real/v211dev_family_000008__clean__false_FOUND.jpg",
+      "sha256": "f3a955c1d319bf024cdd85ea1eeef28922b1ee68d6bac3b860799a70243325bd"
+    },
+    {
+      "bytes": 47358,
+      "path": "images/failure_cases_real/v211dev_family_000008__occlusion_view_counterfactual__false_FOUND.jpg",
+      "sha256": "761ae95fe6a97ae41e6e026602c248640db1a1c52a873bdcfb8a91d803af7b95"
+    },
+    {
+      "bytes": 39541,
+      "path": "images/failure_cases_real/v211dev_family_000010__clean__point_outside_target.jpg",
+      "sha256": "0e1b09b00abe88f0cd22b28e9e7be685f47225047a429f8e871615dba1929aaf"
+    },
+    {
+      "bytes": 41310,
+      "path": "images/failure_cases_real/v211dev_family_000048__clean__point_outside_target.jpg",
+      "sha256": "cafb62cd522dbf2770cf657c47a426feaf37693d1c495ae46225f7a683b71702"
+    },
+    {
+      "bytes": 44714,
+      "path": "images/failure_cases_real/v211dev_family_000081__clean__point_outside_target.jpg",
+      "sha256": "c1ba58e9192b4ff70025568d99c7d2222e1f17a7774d804a372aeb744b79445c"
+    },
+    {
+      "bytes": 44089,
+      "path": "images/failure_cases_real/v211dev_family_000124__clean__point_outside_target.jpg",
+      "sha256": "5c50943c0838965c5fb0d253b2236d63d5a0baeed1f935391dbe5637b1369f79"
+    },
+    {
+      "bytes": 41611,
+      "path": "images/failure_cases_real/v211dev_family_000154__relation_counterfactual__false_FOUND.jpg",
+      "sha256": "de58f5c2fa925ca83ddc565da06de0fe1ac80adc160eed612aafb3ef407a02a2"
+    },
+    {
+      "bytes": 45855,
+      "path": "images/failure_cases_real/v211dev_family_000178__semantic_counterfactual__point_outside_target.jpg",
+      "sha256": "ee23d2e820f89557781c16a1ea9fdd6a2eb8999c4029e50e0bb356f3de28532f"
+    },
+    {
+      "bytes": 40535,
+      "path": "images/failure_cases_real/v211dev_family_000190__clean__point_outside_target.jpg",
+      "sha256": "062e6e605b0c37917c2fcdf716742d5831f1a817c90e01fdc38275635c0c9e5f"
+    },
+    {
+      "bytes": 46835,
+      "path": "images/failure_cases_real/v211dev_family_000214__semantic_counterfactual__point_outside_target.jpg",
+      "sha256": "d2dc6f681dd30160ef0c11abecd06015301a3f7be8ae5072bd8d70d42510f465"
+    },
+    {
+      "bytes": 44372,
+      "path": "images/failure_cases_real/v211dev_family_000373__clean__point_outside_target.jpg",
+      "sha256": "c67ee826d78274c0fe6b4837225ae508a8d8f21ad743087181d2fe40bdae0807"
+    },
+    {
+      "bytes": 45004,
+      "path": "images/failure_cases_real/v211dev_family_000389__clean__point_outside_target.jpg",
+      "sha256": "58ef97c35ff38efa6c37c54923f3d2693fc264ffdf6d5980e101e48f96d82954"
+    },
+    {
+      "bytes": 9956,
+      "path": "locked_inputs/PCRA_U_DEVELOPMENT_FAILURE_AUDIT_CONTRACT.md",
+      "sha256": "a8210ff4b0afb446b35c66d7f3c21adb2b886f4897872d3672b23f1179623fe0"
+    },
+    {
+      "bytes": 464,
+      "path": "locked_inputs/best_dev_total_loss.json",
+      "sha256": "e045317e028c9300363f33e44a9e74a5c5cda8c8d2fbbb025c0eb48194474d99"
+    },
+    {
+      "bytes": 599,
+      "path": "locked_inputs/manifest.json",
+      "sha256": "b59f742727d35cdbb2c9575571d89d2b5853f903dcd5b1358014d7d977ec64a5"
+    },
+    {
+      "bytes": 1921,
+      "path": "locked_inputs/metadata.json",
+      "sha256": "03de47beb29320aea32a69331c1d5805b23929cf2bc77274195b2ccd5d94accc"
+    },
+    {
+      "bytes": 671167,
+      "path": "locked_inputs/pcra_u_development_eval_manifest.json",
+      "sha256": "9677e94c274190a49a800b259552c55661a29f2bf2687f9a56cb783616ccbfa7"
+    },
+    {
+      "bytes": 1865727,
+      "path": "predictions/dev_failure_audit_predictions.json",
+      "sha256": "cb5fd9cdc934882c0070d4d8e92f711e8228317ef82747f5e7855adbb70f17fd"
+    },
+    {
+      "bytes": 925830,
+      "path": "predictions/roborefer_baselines_dev.jsonl",
+      "sha256": "c7680e66494992230c869062b9a8ffbdb7bdeca9f7ef6d9f028892cde98d5a4a"
+    },
+    {
+      "bytes": 118,
+      "path": "tables/TABLES_02_TO_06_STATUS.json",
+      "sha256": "b5958b4de47bec51ab30c390e4df751bfa2c0e9f9108f581f30cdb9e29bb0ca5"
+    },
+    {
+      "bytes": 1219,
+      "path": "tables/table_dev_ablation_exploratory.csv",
+      "sha256": "4e33964ef215a63ddc3b1c7f0dcdee78ae642b8181c35d14560a82d4db2c4c31"
+    },
+    {
+      "bytes": 4977,
+      "path": "tables/table_dev_answerability_confusion_exploratory.csv",
+      "sha256": "75ea1a75046d5e1a920b2e7631c7e1f1d38f4c8655a476717746a3980a5d48b5"
+    },
+    {
+      "bytes": 15575,
+      "path": "tables/table_dev_failure_cases_exploratory.csv",
+      "sha256": "70e80597f7b23572abc7da227fcf2d6e07b567601d9aa61ad6ec2bf04b0278dd"
+    },
+    {
+      "bytes": 4085,
+      "path": "tables/table_dev_failure_strata_exploratory.csv",
+      "sha256": "305bd13588f25e93638c3a8dda97b63095571b000ac4801dbea3f7d63691bb58"
+    },
+    {
+      "bytes": 4566,
+      "path": "tables/table_dev_family_bootstrap_ci_exploratory.csv",
+      "sha256": "019a2cade136147a2ae4191ce8fa5ba8ab7bced9a14352b37f326f53874edbbe"
+    },
+    {
+      "bytes": 1070,
+      "path": "tables/table_dev_grounding_by_relation_exploratory.csv",
+      "sha256": "d08f37cf81c24420037c9ee96fcba75b9cb24bb9127240496d55087e0796026a"
+    },
+    {
+      "bytes": 1793,
+      "path": "tables/table_dev_method_comparison_exploratory.csv",
+      "sha256": "c18c4c4976c54e0f94c236f2878c41c79537d8bfe2497ac56a432e3e8f69671a"
+    },
+    {
+      "bytes": 1775,
+      "path": "tables/table_dev_paired_deltas_exploratory.csv",
+      "sha256": "1769134565dcd1c8a5720fb2e12662823c6475ef2f65526ed71762fd27c19c88"
+    },
+    {
+      "bytes": 673,
+      "path": "tables/table_dev_source_head_4class_exploratory.csv",
+      "sha256": "0fb9a291e6073e0878722295d7bf8bffd4b1cadcaf9955ec07230578ea826395"
+    }
+  ],
+  "schema_version": 1,
+  "tree_commitment_sha256": "315bb765c898f5c570c1a94d1de3112acb897b95b695a24d315020c8f976fce5"
+}

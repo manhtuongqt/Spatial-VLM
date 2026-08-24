@@ -1,0 +1,4 @@
+seed,epochs,eligible,fail_min_epoch,fail_Ga,fail_A,fail_F
+24082026,20,0,5,20,11,15
+24082027,20,0,5,20,12,13
+24082028,20,0,5,20,11,5

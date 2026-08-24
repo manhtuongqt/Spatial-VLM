@@ -1,0 +1,77 @@
+{
+  "baseline_files_modified": false,
+  "coordinator_pid": 21790,
+  "final_target_pids": {
+    "action_server": [],
+    "gazebo": [],
+    "move_group": [],
+    "servo": []
+  },
+  "gate_id": "FIX_V2_1_SHUTDOWN_GATE",
+  "initial_target_pids": {
+    "action_server": [
+      21549
+    ],
+    "gazebo": [
+      21116,
+      21120
+    ],
+    "move_group": [
+      21121
+    ],
+    "servo": [
+      21123
+    ]
+  },
+  "launch_pid": 21101,
+  "ordered_shutdown_complete": true,
+  "remaining_target_pids": [],
+  "schema_version": 1,
+  "stages": [
+    {
+      "fallback_sigkill_pids": [],
+      "remaining_pids": [],
+      "requested_pids": [
+        21549,
+        21123
+      ],
+      "sigint_pids": [
+        21549,
+        21123
+      ],
+      "targets": [
+        "action_server",
+        "servo"
+      ]
+    },
+    {
+      "policy": "SIGKILL_AFTER_CLIENTS_STOPPED_AVOIDS_KNOWN_SIGINT_DESTRUCTOR_CRASH",
+      "remaining_pids": [],
+      "requested_pids": [
+        21121
+      ],
+      "sigkill_pids": [
+        21121
+      ],
+      "targets": [
+        "move_group"
+      ]
+    },
+    {
+      "fallback_sigkill_pids": [],
+      "fallback_sigterm_pids": [],
+      "remaining_pids": [],
+      "requested_pids": [
+        21120,
+        21116
+      ],
+      "sigint_pids": [
+        21120,
+        21116
+      ],
+      "targets": [
+        "gazebo"
+      ]
+    }
+  ]
+}

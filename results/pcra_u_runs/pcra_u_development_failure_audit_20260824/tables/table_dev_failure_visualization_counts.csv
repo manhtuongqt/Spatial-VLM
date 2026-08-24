@@ -1,0 +1,23 @@
+scientific_status,dimension,stratum,failure_type,failure_sample_count,distinct_failure_family_count,total_failure_sample_count_in_stratum,total_distinct_failure_family_count_in_stratum,interpretation
+EXPLORATORY_DEV_ONLY,relation,behind,false_FOUND,2,2,3,3,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,behind,point_outside_target,1,1,3,3,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,between_in_depth,false_FOUND,0,0,2,2,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,between_in_depth,point_outside_target,2,2,2,2,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,direct,false_FOUND,4,2,19,17,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,direct,point_outside_target,15,15,19,17,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,farther_than,false_FOUND,1,1,1,1,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,farther_than,point_outside_target,0,0,1,1,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,front_of,false_FOUND,0,0,1,1,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,front_of,point_outside_target,1,1,1,1,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,left_of,false_FOUND,1,1,2,2,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,left_of,point_outside_target,1,1,2,2,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,right_of,false_FOUND,1,1,5,5,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,relation,right_of,point_outside_target,4,4,5,5,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,variant,clean,false_FOUND,4,4,19,19,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,variant,clean,point_outside_target,15,15,19,19,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,variant,occlusion_view_counterfactual,false_FOUND,3,3,3,3,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,variant,occlusion_view_counterfactual,point_outside_target,0,0,3,3,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,variant,relation_counterfactual,false_FOUND,2,2,3,3,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,variant,relation_counterfactual,point_outside_target,1,1,3,3,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,variant,semantic_counterfactual,false_FOUND,0,0,8,8,failure-only count; denominator unavailable; not an error rate
+EXPLORATORY_DEV_ONLY,variant,semantic_counterfactual,point_outside_target,8,8,8,8,failure-only count; denominator unavailable; not an error rate
