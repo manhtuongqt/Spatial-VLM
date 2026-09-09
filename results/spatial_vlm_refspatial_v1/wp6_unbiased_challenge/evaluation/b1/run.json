@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED",
+  "model_id": "b1",
+  "model_input_allowlist": [
+    "rgb",
+    "depth",
+    "instruction"
+  ],
+  "targets_hidden_until_scoring": true,
+  "provenance": "results/spatial_vlm_refspatial_v1/wp6_unbiased_challenge/primary_challenge.jsonl",
+  "provenance_sha256": "6cdf287f74057ae20979338073a63bc29bd3c7c07243a4f4c9f5f583b123d353",
+  "samples_requested": 180,
+  "already_completed": 0,
+  "pending": 180,
+  "greedy_decoding": true,
+  "uncertainty_method": "five-draw stochastic self-consistency around greedy point",
+  "uncertainty_draws": 5,
+  "sampling_temperature": 0.7,
+  "sampling_top_p": 0.9,
+  "agreement_radius": 0.08,
+  "max_new_tokens": 32,
+  "seed_scheme": "sha256(9092026:sample_id:model_id:draw)",
+  "started_at_utc": "2026-09-09T09:49:53.557843+00:00",
+  "model_source": "/home/dhcn/ur_ws/src/myproject/results/spatial_vlm_refspatial_v1/wp4_b1_lora_pilot/model",
+  "load_seconds": 3.63553355699878,
+  "gpu_name": "NVIDIA RTX 2000 Ada Generation",
+  "completed_count": 180,
+  "cuda_peak_allocated_mib": 4970.61328125,
+  "cuda_peak_reserved_mib": 5368.0,
+  "finished_at_utc": "2026-09-09T10:07:44.394120+00:00"
+}

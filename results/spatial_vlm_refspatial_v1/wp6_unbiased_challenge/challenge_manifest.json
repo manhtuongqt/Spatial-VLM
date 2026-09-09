@@ -1,0 +1,92 @@
+{
+  "dataset": "D_tabletop_unbiased_challenge_v1",
+  "status": "PRIMARY_MACHINE_SOURCE_ONLY_MANUAL_AMBIGUITY_AUDIT_PENDING",
+  "purpose": "B0/B1 challenge evaluation before any Gazebo promotion decision",
+  "sam2_used": false,
+  "primary_count": 180,
+  "manual_tie_ambiguity_count": 100,
+  "primary_by_split": {
+    "dev": 88,
+    "diagnostic": 92
+  },
+  "primary_by_relation": {
+    "leftmost_ranking": 11,
+    "rightmost_ranking": 7,
+    "horizontal_ordinal_ranking": 162
+  },
+  "primary_by_stratum": {
+    "dev_extremum_left_scarce_source_pass": 5,
+    "dev_extremum_right_scarce_source_pass": 7,
+    "dev_ordinal_rank_ge3_gap_lt008": 76,
+    "diagnostic_extremum_left_scarce_source_pass": 6,
+    "diagnostic_ordinal_rank_ge2_gap_lt008": 86
+  },
+  "manual_by_reason": {
+    "no_matching_source_rank_sequence": 50,
+    "source_point_x_tie_proxy": 50
+  },
+  "primary_unique_families": 180,
+  "manual_unique_families": 100,
+  "exclusions": {
+    "b0_agreement_queue_samples": 1140,
+    "b0_agreement_or_b1_dataset_families": 964,
+    "primary_overlap_b0_agreement_queue": 0,
+    "primary_overlap_b1_dataset_families": 0
+  },
+  "selection": "fixed SHA-256 ordering over source-only strata; no RoboRefer outputs read",
+  "not_for_training": true,
+  "not_for_b2": true,
+  "label_policy": "Primary labels are source-structure-only and must be reported as machine-source evaluation; tie/ambiguity queue is unscored until human review.",
+  "inputs": {
+    "results/spatial_vlm_refspatial_v1/wp3_machine_lora_pilot/machine_screen_all.jsonl": "b268ce12b308ec5d111c0d04fcfcbde150ce4b76c6389fdbccde3ba5f85480c9",
+    "results/spatial_vlm_refspatial_v1/wp3_machine_lora_pilot/agreement_queue.jsonl": "b729fa6e7d0a3a3d0c5755cf8660d941119623c15fa8d419c49ac2f2536ba257",
+    "datasets/D_tabletop_machine_v1/provenance.jsonl": "be28dc831d278a333d1203701d31a223e6dc01bcdbf6589daf2244e300f308ab",
+    "results/spatial_vlm_refspatial_v1/wp1_source_audit/object_candidates.jsonl": "957c3af02f1021bac656fc3567d812c098e7e6f116514e43d19ed5476143d0ce",
+    "results/spatial_vlm_refspatial_v1/wp3_machine_lora_pilot/machine_quarantine_source.jsonl": "cae8cb38b5fe4f02a39da0d9ad665744c914380da2393883c0c546e7adc1743f",
+    "results/spatial_vlm_refspatial_v1/wp2_visual_review/semantic_scope_overlay.jsonl": "9f67defa2718527bae72327628fac4c3d12993e0659cae9ce7e189b1717b2934"
+  },
+  "outputs": {
+    "primary_challenge.jsonl": "6cdf287f74057ae20979338073a63bc29bd3c7c07243a4f4c9f5f583b123d353",
+    "manual_tie_ambiguity_queue.jsonl": "03875a58b2f1610cd172263303d7dd9b3a4185cf4416f24867498700b5f38013",
+    "manual_tie_ambiguity_decisions.csv": "19a84de367b18f4028c36255fe171a7a689e3d1030d7030aa1072a96a7028c09",
+    "MANUAL_TIE_AMBIGUITY_AUDIT.html": "c88140b50f3c92dee5bcdc8e65f6069396cb2a72519cb9890f1b5ded6206e046",
+    "CHALLENGE_PROTOCOL.md": "33e7e7ba8ce04a047d4ddbd75f092ecee59ff80db3c12062385ed994605e93fc"
+  },
+  "quotas": [
+    {
+      "stratum": "dev_extremum_left_scarce_source_pass",
+      "requested": 5,
+      "candidate_rows": 6,
+      "selected": 5,
+      "candidate_families": 5
+    },
+    {
+      "stratum": "dev_extremum_right_scarce_source_pass",
+      "requested": 7,
+      "candidate_rows": 11,
+      "selected": 7,
+      "candidate_families": 8
+    },
+    {
+      "stratum": "diagnostic_extremum_left_scarce_source_pass",
+      "requested": 6,
+      "candidate_rows": 6,
+      "selected": 6,
+      "candidate_families": 6
+    },
+    {
+      "stratum": "dev_ordinal_rank_ge3_gap_lt008",
+      "requested": 76,
+      "candidate_rows": 97,
+      "selected": 76,
+      "candidate_families": 78
+    },
+    {
+      "stratum": "diagnostic_ordinal_rank_ge2_gap_lt008",
+      "requested": 86,
+      "candidate_rows": 128,
+      "selected": 86,
+      "candidate_families": 94
+    }
+  ]
+}
