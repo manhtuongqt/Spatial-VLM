@@ -1,0 +1,299 @@
+{
+  "best_v2": {
+    "answerability": {
+      "accuracy": 0.815,
+      "class_order": [
+        "FOUND",
+        "AMBIGUOUS",
+        "ABSENT",
+        "INSUFFICIENT_EVIDENCE"
+      ],
+      "confusion_matrix_truth_rows_prediction_columns": [
+        [
+          140,
+          0,
+          3,
+          25
+        ],
+        [
+          0,
+          42,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          34,
+          15
+        ],
+        [
+          14,
+          0,
+          13,
+          110
+        ]
+      ],
+      "macro_f1": 0.8214101007317094,
+      "per_class": {
+        "ABSENT": {
+          "f1": 0.6601941747572816,
+          "precision": 0.68,
+          "recall": 0.6415094339622641,
+          "support": 53
+        },
+        "AMBIGUOUS": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 42
+        },
+        "FOUND": {
+          "f1": 0.8588957055214723,
+          "precision": 0.8860759493670886,
+          "recall": 0.8333333333333334,
+          "support": 168
+        },
+        "INSUFFICIENT_EVIDENCE": {
+          "f1": 0.7665505226480835,
+          "precision": 0.7333333333333333,
+          "recall": 0.8029197080291971,
+          "support": 137
+        }
+      }
+    },
+    "checkpoint_model_sha256": "1505152fca7b725d7db701c1341ad1a57049d6b5ac450a9f5ce0c8d78705ba26",
+    "description": "Best P-CRA-U V2 checkpoint, epoch 13, sidecar over frozen features",
+    "false_found_all_nonfound": {
+      "rate": 0.07758620689655173,
+      "success": 18,
+      "total": 232
+    },
+    "false_found_ambiguous_or_absent": {
+      "rate": 0.042105263157894736,
+      "success": 4,
+      "total": 95
+    },
+    "found_point_in_interior": {
+      "rate": 0.9583333333333334,
+      "success": 161,
+      "total": 168
+    },
+    "found_point_in_target": {
+      "rate": 0.9761904761904762,
+      "success": 164,
+      "total": 168
+    },
+    "joint_true_found_prediction_and_point_in_target": {
+      "rate": 0.8154761904761905,
+      "success": 137,
+      "total": 168
+    }
+  },
+  "delta_v2_minus_original": {
+    "answerability_accuracy": 0.39499999999999996,
+    "answerability_macro_f1": 0.6735227767880474,
+    "false_found_all_nonfound": -0.9224137931034483,
+    "false_found_ambiguous_or_absent": -0.9578947368421052,
+    "found_point_in_interior": 0.005952380952381042,
+    "found_point_in_target": 0.023809523809523836
+  },
+  "family_cluster_bootstrap_target_delta": {
+    "ci95_high": 0.05714740673339393,
+    "ci95_low": -0.006211180124223602,
+    "estimate": 0.023809523809523808,
+    "families": 80,
+    "replicates": 5000,
+    "seed": 24082027,
+    "unit": "family"
+  },
+  "found_grounding_by_relation": {
+    "behind": {
+      "best_v2_point_in_target": 0.9411764705882353,
+      "delta_v2_minus_b1": 0.23529411764705882,
+      "original_b1_point_in_target": 0.7058823529411765,
+      "samples": 17
+    },
+    "between_in_depth": {
+      "best_v2_point_in_target": 0.6666666666666666,
+      "delta_v2_minus_b1": -0.3333333333333333,
+      "original_b1_point_in_target": 1.0,
+      "samples": 3
+    },
+    "direct": {
+      "best_v2_point_in_target": 1.0,
+      "delta_v2_minus_b1": 0.0,
+      "original_b1_point_in_target": 1.0,
+      "samples": 111
+    },
+    "farther_than": {
+      "best_v2_point_in_target": 1.0,
+      "delta_v2_minus_b1": 0.3333333333333333,
+      "original_b1_point_in_target": 0.6666666666666666,
+      "samples": 3
+    },
+    "front_of": {
+      "best_v2_point_in_target": 1.0,
+      "delta_v2_minus_b1": 0.0,
+      "original_b1_point_in_target": 1.0,
+      "samples": 14
+    },
+    "left_of": {
+      "best_v2_point_in_target": 0.7777777777777778,
+      "delta_v2_minus_b1": -0.1111111111111111,
+      "original_b1_point_in_target": 0.8888888888888888,
+      "samples": 9
+    },
+    "nearer_than": {
+      "best_v2_point_in_target": 1.0,
+      "delta_v2_minus_b1": 0.3333333333333333,
+      "original_b1_point_in_target": 0.6666666666666666,
+      "samples": 3
+    },
+    "nearer_than_both": {
+      "best_v2_point_in_target": 1.0,
+      "delta_v2_minus_b1": 0.0,
+      "original_b1_point_in_target": 1.0,
+      "samples": 1
+    },
+    "right_of": {
+      "best_v2_point_in_target": 1.0,
+      "delta_v2_minus_b1": 0.0,
+      "original_b1_point_in_target": 1.0,
+      "samples": 7
+    }
+  },
+  "found_grounding_by_variant": {
+    "clean": {
+      "best_v2_point_in_target": 0.96875,
+      "delta_v2_minus_b1": 0.0,
+      "original_b1_point_in_target": 0.96875,
+      "samples": 32
+    },
+    "relation_counterfactual": {
+      "best_v2_point_in_target": 0.9464285714285714,
+      "delta_v2_minus_b1": 0.07142857142857142,
+      "original_b1_point_in_target": 0.875,
+      "samples": 56
+    },
+    "semantic_counterfactual": {
+      "best_v2_point_in_target": 1.0,
+      "delta_v2_minus_b1": 0.0,
+      "original_b1_point_in_target": 1.0,
+      "samples": 80
+    }
+  },
+  "found_samples_for_grounding": 168,
+  "original_b1": {
+    "answerability": {
+      "accuracy": 0.42,
+      "class_order": [
+        "FOUND",
+        "AMBIGUOUS",
+        "ABSENT",
+        "INSUFFICIENT_EVIDENCE"
+      ],
+      "confusion_matrix_truth_rows_prediction_columns": [
+        [
+          168,
+          0,
+          0,
+          0
+        ],
+        [
+          42,
+          0,
+          0,
+          0
+        ],
+        [
+          53,
+          0,
+          0,
+          0
+        ],
+        [
+          137,
+          0,
+          0,
+          0
+        ]
+      ],
+      "macro_f1": 0.14788732394366197,
+      "per_class": {
+        "ABSENT": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 53
+        },
+        "AMBIGUOUS": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 42
+        },
+        "FOUND": {
+          "f1": 0.5915492957746479,
+          "precision": 0.42,
+          "recall": 1.0,
+          "support": 168
+        },
+        "INSUFFICIENT_EVIDENCE": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 137
+        }
+      }
+    },
+    "description": "Frozen RoboRefer-2B-SFT with registered RGB-D, greedy decoding, forced point output",
+    "false_found_all_nonfound": {
+      "rate": 1.0,
+      "success": 232,
+      "total": 232
+    },
+    "false_found_ambiguous_or_absent": {
+      "rate": 1.0,
+      "success": 95,
+      "total": 95
+    },
+    "found_point_in_interior": {
+      "rate": 0.9523809523809523,
+      "success": 160,
+      "total": 168
+    },
+    "found_point_in_target": {
+      "rate": 0.9523809523809523,
+      "success": 160,
+      "total": 168
+    },
+    "mean_latency_ms": 1898.6670751800193,
+    "parse_status_counts": {
+      "EXACT_ONE_NORMALIZED_POINT": 400
+    }
+  },
+  "paired_grounding_outcomes": {
+    "both_hit": 158,
+    "neither": 2,
+    "original_only": 2,
+    "v2_only": 6
+  },
+  "paired_samples": 400,
+  "rerun_reproducibility_against_archived_b1": {
+    "archived_samples": 400,
+    "exact_pixel_point_matches": 400,
+    "exact_raw_answer_matches": 400,
+    "rerun_samples": 400,
+    "same_sample_ids": true
+  },
+  "schema_version": 1,
+  "scientific_status": "EXPLORATORY_DEV_ONLY",
+  "scope_notes": [
+    "Grounding comparison is restricted to the 168 truth-FOUND samples and scores the predicted point independently of answerability.",
+    "Original RoboRefer has no answerability head; a successfully parsed point is therefore counted as FOUND.",
+    "V2 latency is not compared because its saved evaluation uses cached frozen features and is not an end-to-end timing equivalent.",
+    "Source uncertainty, relation-edge, calibration, and selective policy have no original-RoboRefer counterpart.",
+    "Development-set results are exploratory and point-in-mask is not physical robot success."
+  ]
+}

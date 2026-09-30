@@ -1,0 +1,19 @@
+{
+  "expected_samples": 400,
+  "generation_mode": "greedy",
+  "manifest_path": "/home/dhcn/ur_ws/src/myproject/old/protocol/pcra_u_development_eval_manifest.json",
+  "manifest_sha256": "0ae584556006c56d7551db85421cd43fad213b188a87db3685a6c8f6d7f1cf12",
+  "mean_latency_ms": 1898.6670751800193,
+  "method": "B1_RGB_D",
+  "model_inventory_sha256": "5508fb49888c1f62b875d928266f7fff3e1224c795f6fc8b971631143a45a7fa",
+  "oracle_or_annotation_read_by_runner": false,
+  "parse_status_counts": {
+    "EXACT_ONE_NORMALIZED_POINT": 400
+  },
+  "predictions_path": "/home/dhcn/ur_ws/src/myproject/new/outputs/roborefer_original_b1_rerun_seed_8132026/predictions.jsonl",
+  "predictions_sha256": "aacfdb74cc659b4d40a1193fbf45f67b7bedc88df351730364c2d90c2a3e07e4",
+  "random_seed": 8132026,
+  "samples": 400,
+  "schema_version": 1,
+  "status": "COMPLETE"
+}
