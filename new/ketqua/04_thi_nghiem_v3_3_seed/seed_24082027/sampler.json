@@ -1,0 +1,6 @@
+{
+  "batches_per_epoch": 103,
+  "family_presentations_per_epoch": 412,
+  "oversampled_family_presentations": 92,
+  "unique_families": 320
+}

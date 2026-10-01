@@ -1,0 +1,63 @@
+{
+  "decision": "GO_FROZEN_BEST_V2_TEST_IID_INFERENCE",
+  "eval_manifest": "new/test_iid/protocol/test_iid_eval_manifest.json",
+  "family_count": 200,
+  "feature_manifest": "new/test_iid/protocol/test_iid_feature_manifest.json",
+  "passed": true,
+  "protected_inputs": {
+    "best_v2_freeze_lock_sha256": "76c0b04c5e14fc08033d44d478f85d2aa8955f87f81ad717d66f8f29e67cec02",
+    "calibrator_sha256": "f4ed0abb06ed9628415d9ec710da3f3bccf6df6cb85eebd1b3f68fdb6ac67112",
+    "checkpoint_sha256": "1505152fca7b725d7db701c1341ad1a57049d6b5ac450a9f5ce0c8d78705ba26",
+    "dataset_index_sha256": "6aa028166a79634d4234f88030b8d90a232e0cd19b107d936762cc2ee999684e",
+    "family_manifest_sha256": "67378993952827cc328930f287357d699bd0803ab9a9ba40c38772f8794f3c04",
+    "materialized_checkpoint_sha256": "3eecff83ed6bb02ae17da3abbaadf2a78fcfb274608b2ad2954d312d8f95a6f6",
+    "model_config_sha256": "e4f21ccc255c2f097fd8b062e21e954719357cb6e00645758bc1cdf36a290b0c",
+    "model_inventory_sha256": "5508fb49888c1f62b875d928266f7fff3e1224c795f6fc8b971631143a45a7fa"
+  },
+  "protocol_id": "roborefer_dataset_v2_1_test_iid_capture_200",
+  "sample_count": 1000,
+  "schema_version": 1,
+  "summary": {
+    "answerability": {
+      "ABSENT": 132,
+      "AMBIGUOUS": 105,
+      "FOUND": 420,
+      "INSUFFICIENT_EVIDENCE": 343
+    },
+    "development_calibration_depth_overlap": 0,
+    "development_calibration_rgb_overlap": 0,
+    "family_categories": {
+      "direct_grounding": 150,
+      "front_behind_camera": 150,
+      "multi_anchor_depth_order": 150,
+      "nearer_farther": 175,
+      "occlusion_depth_evidence": 175,
+      "relation_2d": 200
+    },
+    "relations": {
+      "behind": 91,
+      "between_in_depth": 42,
+      "direct": 350,
+      "farther_than": 67,
+      "front_of": 169,
+      "left_of": 78,
+      "nearer_than": 73,
+      "nearer_than_both": 48,
+      "right_of": 82
+    },
+    "target_object_groups": {
+      "box": 100,
+      "container": 150,
+      "cube": 50,
+      "fruit": 550,
+      "mug": 150
+    },
+    "uncertainty_sources": {
+      "depth": 160,
+      "occlusion": 183,
+      "relation": 237,
+      "semantic": 237
+    },
+    "unique_feature_pairs": 619
+  }
+}

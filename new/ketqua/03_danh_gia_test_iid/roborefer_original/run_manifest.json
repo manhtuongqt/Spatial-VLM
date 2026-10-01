@@ -1,0 +1,21 @@
+{
+  "expected_samples": 1000,
+  "family_count": 200,
+  "generation_mode": "greedy",
+  "manifest_path": "new/test_iid/protocol/test_iid_feature_manifest.json",
+  "manifest_sha256": "6cde4b1e7f812f1bdbdefc47b79e2a41d70c4a492d120e560d4338a0d6dc2e33",
+  "mean_latency_ms": 1898.3679040299937,
+  "method": "ROBOREFER_ORIGINAL_RGB_D",
+  "model_inventory_sha256": "5508fb49888c1f62b875d928266f7fff3e1224c795f6fc8b971631143a45a7fa",
+  "oracle_or_annotation_read_by_runner": false,
+  "parse_status_counts": {
+    "EXACT_ONE_NORMALIZED_POINT": 1000
+  },
+  "predictions_path": "new/test_iid/evaluation/roborefer_original/predictions.jsonl",
+  "predictions_sha256": "31653e7ae9a26daf75414f9c740bed4acc6f7642145a8e9e3e38e3a60e39dcd3",
+  "random_seed": 8132026,
+  "samples": 1000,
+  "schema_version": 1,
+  "scientific_status": "OFFICIAL_FROZEN_TEST_IID_BASELINE",
+  "status": "COMPLETE"
+}
